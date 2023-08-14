@@ -5,6 +5,8 @@
 
 .trip h1{
     font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 }
 
 .tripcard{
@@ -55,14 +57,30 @@
 }
 
 .statename{
-    color:#FF5B25;
+    background-color: #FF5B25;
+    padding: 0.2rem 1rem ;
+    color:#fff;
+    text-align: left;
     font-weight: 500;
 }
 .t-card h4{
     font-size: 1.3rem;
     padding: 0 0 .2rem 0;
+    font-weight: 500;
+}
+.days{
+    
+        font-size: 1rem;
+        padding: 0 0 .2rem 0;
+        font-weight: 500;
+
 }
 
+.knowmore{
+    font-size: 1rem;
+        padding: 0 0 .2rem 0;
+        font-weight: 500;
+}
 @media screen and (max-width:850px){
     .trip{
         margin: 4rem 2rem;

@@ -5,6 +5,8 @@
 
 .destination h1{
     font-size: 3rem;
+    font-weight: 600;
+    letter-spacing: 1px;
 
 }
 
@@ -33,6 +35,7 @@
 
 .des-text h2{
    padding-bottom: 1rem;
+   font-weight: 500;
     
 }
 
@@ -42,6 +45,8 @@
     display: flex;
     justify-content: space-between;
     z-index: -99;
+    
+    
 }
 
 .image img{
@@ -50,8 +55,13 @@
     object-fit: cover;
     border-radius: 6px;
     box-shadow: -1px 1px 62px -18px rgba(0,0,0,0.19);
+    transition: 0.3s ease-in-out;
 
 }
+.image img:hover{
+    transform: scale(1.3);
+}
+
 
 .image img:nth-child(2){
     position: absolute;

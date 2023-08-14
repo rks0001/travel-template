@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import AboutImg from "../assets/night.jpg";
 import Footer from "../components/Footer";
 import Trip from "../components/Trip";
-import aboutImg from '../assets/night.jpg'
+import aboutImg from '../assets/meghalaya1.jpg'
 import Services from "../components/Services";
 function Service() {
   return (
@@ -13,7 +13,7 @@ function Service() {
          <Hero
       cName="hero-mid"
       heroImg={aboutImg}
-      title="Services"
+      title="SERVICES"
       
       btnClass="hide"
       />

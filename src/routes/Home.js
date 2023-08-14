@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
-import img1 from '../assets/2.jpg'
+import img1 from '../assets/meghalaya_waterfall.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 
 function Home() {

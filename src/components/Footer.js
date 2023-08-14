@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="footer">
       <div className="top">
         <div>
-          <h1>Ithvaraa</h1>
-          <p>Lorem Ipsum</p>
+          <h1 className="brandname">ithvaraa</h1>
+          
         </div>
         <div>
           <a href="/">
@@ -23,23 +23,23 @@ const Footer = () => {
         </div>
       </div>
       <div className="bottom">
-        <div>
-          <h4>Project</h4>
-          <a href="/">changelog</a>
-          <a href="/">changelog</a>
-          <a href="/">changelog</a>
+        <div className="footerlinks">
+          <h4>Contact Us</h4>
+          <p>Address: Tezpur, Assam, 784028</p>
+          <p>Phone: +91 8822814153</p>
+          <p>Email: ithvaraatravels@gmail.com</p>
         </div>
-        <div>
-          <h4>Project</h4>
-          <a href="/">changelog</a>
-          <a href="/">changelog</a>
-          <a href="/">changelog</a>
+        <div className="footerlinks">
+          <h4>Quick Links</h4>
+          <a href="/">Explore Meghalaya</a>
+          <a href="/">Explore Arunachal</a>
+          <a href="/">Explore Assam</a>
         </div>
-        <div>
-          <h4>Project</h4>
-          <a href="/">changelog</a>
-          <a href="/">changelog</a>
-          <a href="/">changelog</a>
+        <div className="footerlinks">
+          <h4>Important Links</h4>
+          <a href="/">Privacy Policy</a>
+          <a href="/">Terms & Conditions</a>
+          <a href="/">Refund Policy</a>
         </div>
       </div>
     </div>

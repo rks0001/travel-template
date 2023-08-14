@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 import AboutImg from "../assets/2.jpg";
 import Footer from "../components/Footer";
 import ContactForm from "../components/ContactForm";
-import aboutImg from '../assets/night.jpg'
+import aboutImg from '../assets/arunachal6.jpg'
 function Contact() {
   return (
     <>
@@ -12,7 +12,7 @@ function Contact() {
          <Hero
       cName="hero-mid"
       heroImg={aboutImg}
-      title="Contact"
+      title="CONTACT US"
       
       btnClass="hide"
       />

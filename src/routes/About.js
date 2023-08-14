@@ -4,7 +4,7 @@ import Navbar from "../components/Navbar";
 
 import Footer from "../components/Footer";
 import AboutUs from "../components/AboutUs";
-import aboutImg from '../assets/night.jpg'
+import aboutImg from '../assets/meghalaya5.jpg'
 
 function About() {
   return (
@@ -12,7 +12,7 @@ function About() {
          <Hero
       cName="hero-mid"
       heroImg={aboutImg}
-      title="About"
+      title="ABOUT US"
       
       btnClass="hide"
       />

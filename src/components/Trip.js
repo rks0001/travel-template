@@ -1,40 +1,40 @@
 import "./TripStyles.css";
 import TripData from "./TripData";
-import Trip1 from "../assets/5.jpg";
-import Trip2 from "../assets/8.jpg";
-import Trip3 from "../assets/6.jpg";
+import Meghalaya1 from "../assets/meghalaya2.jpg";
+import Arunachal1 from "../assets/arunachal4.jpg";
+import Assam1 from "../assets/assam1.jpg";
 import React from 'react';
 function Trip() {
   return (
     <div className="trip">
       <h1>DISCOVER TOURS</h1>
-      <p>You can discover unique locations</p>
+      <p>Tours that Transcend</p>
       <div className="tripcard">
         <TripData
-        image={Trip1}
-        statename="ASSAM"
-        heading="Trip In Indonesia"
+        image={Meghalaya1}
+        statename="MEGHALAYA"
+        heading="Explore Meghalaya"
         url="/tour"
         text="lorem"
-        days="4Days - 3Nights"
+        days="4 Days - 3 Nights"
         knowmore="Know More"
         />
          <TripData
-        image={Trip2}
-        statename="ASSAM"
-        heading="Trip In Bali"
+        image={Arunachal1}
+        statename="ARUNACHAL PRADESH"
+        heading="Explore Tawang"
         url="/tour"
         text="lorem"
-        days="4Days - 3Nights"
+        days="4 Days - 3 Nights"
         knowmore="Know More"
         />
          <TripData
-        image={Trip3}
+        image={Assam1}
         statename="ASSAM"
-        heading="Trip In Bahamas"
+        heading="Explore Kaziranga"
         url="/tour"
         text="lorem"
-        days="4Days - 3Nights"
+        days="4 Days - 3 Nights"
         knowmore="Know More"
         />
       </div>

@@ -1,0 +1,11 @@
+.mainservices{
+    background-color: aliceblue;
+    padding: 30px ;
+    margin: 30px ;
+
+}
+
+.services{
+    display: flex;
+justify-content: space-around;
+}

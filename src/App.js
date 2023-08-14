@@ -7,6 +7,7 @@ import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Footer from "./components/Footer";
 import Tour from "./routes/Tours/Tour";
+import React from 'react';
 
 export default function App() {
   return (

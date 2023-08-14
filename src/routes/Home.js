@@ -1,3 +1,4 @@
+import React from 'react';
 import Destination from "../components/Destination";
 import Footer from "../components/Footer";
 import Hero from "../components/Hero";

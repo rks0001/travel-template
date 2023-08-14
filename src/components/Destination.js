@@ -1,4 +1,4 @@
-
+import React from 'react';
 import DestinationData from "./DestinationData";
 import "./DestinationStyles.css";
 import Mountain1 from "../assets/1.jpg";

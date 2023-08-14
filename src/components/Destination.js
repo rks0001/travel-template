@@ -10,7 +10,7 @@ const Destination = () => {
   return (
     <div className="destination">
       <h1>POPULAR DESTINATIONS</h1>
-      <p>Tours gives you experiences</p>
+      <p className='description'>Tours gives you experiences</p>
       <DestinationData
       className="first-des"
       heading="Meghalaya"

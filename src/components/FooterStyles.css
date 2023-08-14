@@ -75,4 +75,28 @@
     .bottom div{
         width: 50%;
     }
+
+    .bottom h4{
+    font-size: 1.1rem;
+    padding: 1rem 0 0.8rem 0;
+    font-weight: 500;
+}
+
+.bottom a{
+    text-decoration: none;
+    color:#fafafa;
+    padding-bottom: 0.4rem;
+    font-size: 1.1rem;
+}
+
+.footerlinks p{
+    font-size: 0.6rem;
+    padding: 2px;
+    font-weight: 500;
+}
+
+.footerlinks a{
+    font-size: 0.8rem;
+    font-weight: 400;
+}
 }

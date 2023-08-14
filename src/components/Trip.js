@@ -8,7 +8,7 @@ function Trip() {
   return (
     <div className="trip">
       <h1>DISCOVER TOURS</h1>
-      <p>Tours that Transcend</p>
+      <p className="description">Tours that Transcend</p>
       <div className="tripcard">
         <TripData
         image={Meghalaya1}

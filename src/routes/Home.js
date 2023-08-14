@@ -4,7 +4,7 @@ import Footer from "../components/Footer";
 import Hero from "../components/Hero";
 import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
-import img1 from '../assets/meghalaya_waterfall.jpg'
+import img1 from '../assets/arunachal6.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 
 function Home() {
@@ -15,7 +15,7 @@ function Home() {
       cName="hero"
       heroImg={img1}
       title="DISCOVER WANDER REPEAT"
-      text="Unforgettable Journeys Await"
+      // text="Unforgettable Journeys Await"
       buttonText="BOOK YOUR ADVENTURE"
       url="/"
       btnClass="show anglebg"

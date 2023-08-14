@@ -1,6 +1,6 @@
 import React from 'react'
 import Hero from '../../components/Hero'
-import img1 from '../../assets/12.jpg'
+import img1 from '../../assets/meghalaya2.jpg'
 import './Tour.css'
 import { TabTitle } from '../../utils/GeneralFunctions'
 
@@ -9,9 +9,9 @@ const Tour = () => {
   return (
     <>
    <Hero
-      cName="hero"
+      cName="hero-mid"
       heroImg={img1}
-      title="DISCOVER WANDER REPEAT"
+      title="EXPLORE MEGHALAYA"
       text="Unforgettable Journeys Await"
       buttonText="Book Your Adventure"
       url="/"

@@ -12,6 +12,10 @@ const Navbar = () => {
     setClicked(!clicked);
   };
 
+  const closeMenu = () => {
+    setClicked(false);
+  };
+
   const scrollToTop = () => {
     window.scrollTo({
       top: 0,
@@ -36,16 +40,19 @@ const Navbar = () => {
 
   return (
     <nav className="NavbarItems" style={{ background: navbarBackground }}>
-      <h1 className="navbar-logo"> <Link  onClick={scrollToTop} to="/"> ithvaraa Travels</Link></h1>
+      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/"> ithvaraa Travels</Link></h1>
       <div className="menu-icons" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
       <ul className={clicked ? "nav-menu active" : "nav-menu"}>
         {MenuItems.map((item, index) => (
           <div key={index} className="linksdiv">
-             <li >
+             <li>
             <Link
-              onClick={scrollToTop}
+              onClick={() => {
+                scrollToTop();
+                closeMenu(); // Close the menu when an item is clicked
+              }}
               className={item.cName}
               to={item.url}
             >

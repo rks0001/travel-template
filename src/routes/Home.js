@@ -8,7 +8,7 @@ import img1 from '../assets/arunachal6.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 
 function Home() {
-  TabTitle('Ithvaraa Travels');
+  TabTitle('CherishTravels');
   return (
     <>
       <Hero

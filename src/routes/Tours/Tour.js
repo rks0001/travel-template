@@ -16,6 +16,7 @@ const Tour = () => {
 
    <Hero
       cName="hero-mid"
+      cName2="hero-text2"
       heroImg={img1}
       title="EXPLORE MEGHALAYA"
       text="Unforgettable Journeys Await"

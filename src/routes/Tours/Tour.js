@@ -27,12 +27,7 @@ const Tour = () => {
       <div className="layoutmain">
        
       <div className='information'>
-        {/* Icons */}
-        <div className='introicons'>
-          <div><i className="fa-solid fa-person icon"></i><h3 className='icontext' >2-13 Person</h3></div>
-          <div><i className="fa-solid fa-location-dot icon"></i><h3 className='icontext'> Meghalaya</h3></div>
-          <div><i className="fa-solid fa-mountain-sun icon"></i><h3 className='icontext'>Sightseeing</h3></div>
-        </div>
+        
       {/* Trip Highlights */}
       <div className="div-container">
         <h2 className='div-container-title'>Trip Highlights</h2>
@@ -44,6 +39,13 @@ const Tour = () => {
         </ul>
         
       </div>
+
+      {/* Icons */}
+      <div className='introicons'>
+          <div><i className="fa-solid fa-person icon"></i><h3 className='icontext' >2-13 Person</h3></div>
+          <div><i className="fa-solid fa-location-dot icon"></i><h3 className='icontext'> Meghalaya</h3></div>
+          <div><i className="fa-solid fa-mountain-sun icon"></i><h3 className='icontext'>Sightseeing</h3></div>
+        </div>
       {/* Itinerary  */}
       <div className="div-container">
       <h2 className='div-container-title'>Itinerary</h2>

@@ -11,6 +11,7 @@ function About() {
     <>
          <Hero
       cName="hero-mid"
+      cName2="hero-text2"
       heroImg={aboutImg}
       title="ABOUT US"
       

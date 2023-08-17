@@ -9,6 +9,7 @@ import Footer from "./components/Footer";
 import Tour from "./routes/Tours/Tour";
 import React from 'react';
 
+
 export default function App() {
   return (
     <div className="App">

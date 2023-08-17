@@ -27,7 +27,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <p>Address: Tezpur, Assam, 784028</p>
           <p>Phone: +91 8822814153</p>
-          <p>Email: ithvaraatravels@gmail.com</p>
+          <p>Email: cherishtravels@gmail.com</p>
         </div>
         <div className="footerlinks">
           <h4>Quick Links</h4>

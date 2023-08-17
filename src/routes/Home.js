@@ -6,6 +6,7 @@ import Navbar from "../components/Navbar";
 import Trip from "../components/Trip";
 import img1 from '../assets/arunachal6.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
+import CenterMode from '../components/Carousel';
 
 function Home() {
   TabTitle('CherishTravels');
@@ -13,6 +14,7 @@ function Home() {
     <>
       <Hero
       cName="hero"
+      cName2="hero-text"
       heroImg={img1}
       title="DISCOVER WANDER REPEAT"
       // text="Unforgettable Journeys Await"
@@ -22,6 +24,7 @@ function Home() {
       />
       <Destination/>
       <Trip/>
+      <CenterMode/>
     </>
   );
 }

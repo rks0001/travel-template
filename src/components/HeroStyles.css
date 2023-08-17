@@ -88,6 +88,73 @@ img{
  
  }
 
+ /* HERO TEXT 2  */
+ .hero-text2{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+}
+
+.hero .hero-text2 h1{
+    font-size: 4rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero .hero-text2 p{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 0 ;
+
+}
+.hero-mid .hero-text2 h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-mid .hero-text2 p{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 0 ;
+
+}
+
+.hero-text2 .show{
+    display: inline-block;
+    padding: 0.8rem 2rem;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   
+    border-radius: 3px;
+    background-color:#FF5B25;
+  border: 1px solid #FF5B25;
+
+}
+
+.hero-text2 .show:hover{
+    background-position: 100% 50%;
+    transition: .3s ease-in;
+    background-color: #FF5B25;
+  border-color:#FF5B25;
+  color: white;
+ 
+ }
+
+.hero-text2 .hide{
+    display: none;
+ 
+ }
+
 }
   
 
@@ -105,7 +172,20 @@ img{
     border-radius: 6px;
     font-size: 1rem;
  }
+ /* HERO TEXT 2 */
+ .hero-text2 h1{
+    padding: 10px 20px;
+}
+.hero-text2 p {
+    font-size: 1.1rem;
+    padding: 0 0 2rem 0 ;
+}
 
+.hero-text2 .show{
+    padding: 0.6rem 1.1rem;
+    border-radius: 6px;
+    font-size: 1rem;
+ }
  .hero{
     width:100%;
     height: 70vh;
@@ -200,4 +280,77 @@ img{
      display: none;
   
   }
+
+  /* HERO TEXT 2 */
+  .hero-text2{
+    position: absolute;
+    top:55%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 100%;
+    text-align: center;
+}
+
+.hero .hero-text2 h1{
+    font-size: 3.2rem;
+    text-align: center;
+    padding: 0 2rem;
+    line-height: 1.3;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero .hero-text2 p{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 0 ;
+   
+
+}
+.hero-mid .hero-text2 h1{
+    font-size: 3rem;
+    font-weight: 700;
+    letter-spacing: 1px;
+    background: #fff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+}
+.hero-mid .hero-text2 p{
+    font-size: 1.3rem;
+    color: #fff;
+    padding: 1rem 0 ;
+
+}
+
+.hero-text2 .show{
+    display: inline-block;
+    font-size: 1rem;
+    padding: 0.4rem 1rem;
+    overflow: hidden;
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+   margin: 0.4rem 2rem;
+    border-radius: 3px;
+    background-color:#FF5B25;
+  border: 1px solid #FF5B25;
+
+}
+
+.hero-text2 .show:hover{
+    background-position: 100% 50%;
+    transition: .3s ease-in;
+    background-color: #FF5B25;
+  border-color:#FF5B25;
+  color: white;
+ 
+ }
+
+.hero-text2 .hide{
+    display: none;
+ 
+ }
 }

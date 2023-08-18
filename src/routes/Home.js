@@ -9,7 +9,7 @@ import { TabTitle } from "../utils/GeneralFunctions";
 import CenterMode from '../components/Carousel';
 
 function Home() {
-  TabTitle('CherishTravels');
+  TabTitle('ithvaraaTravels');
   return (
     <>
       <Hero

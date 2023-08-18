@@ -6,7 +6,7 @@ const Footer = () => {
     <div className="footer">
       <div className="top">
         <div>
-          <h1 className="brandname">Cherish Holidays</h1>
+          <h1 className="brandname">ithvaraa Holidays</h1>
           
         </div>
         <div>
@@ -27,7 +27,7 @@ const Footer = () => {
           <h4>Contact Us</h4>
           <p>Address: Tezpur, Assam, 784028</p>
           <p>Phone: +91 8822814153</p>
-          <p>Email: cherishtravels@gmail.com</p>
+          <p>Email: ithvaraatravels@gmail.com</p>
         </div>
         <div className="footerlinks">
           <h4>Quick Links</h4>

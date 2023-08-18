@@ -40,7 +40,7 @@ const Navbar = () => {
 
   return (
     <nav className="NavbarItems" style={{ background: navbarBackground }}>
-      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/"> CherishTravels</Link></h1>
+      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/"> ithvaraaTravels</Link></h1>
       <div className="menu-icons" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>

@@ -6,8 +6,9 @@ import About from "./routes/About";
 import Service from "./routes/Service";
 import Contact from "./routes/Contact";
 import Footer from "./components/Footer";
-import Tour from "./routes/Tours/Tour";
+
 import React from 'react';
+import MeghalayaTour from "./routes/Tours/MeghalayaTour";
 
 
 export default function App() {
@@ -19,7 +20,7 @@ export default function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/service" element={<Service/>}/>
       <Route path="/contact" element={<Contact/>}/>
-      <Route path="/tour" element={<Tour/>}/>
+      <Route path="/explore-meghalaya" element={<MeghalayaTour/>}/>
       </Routes>
       <Footer/>
      

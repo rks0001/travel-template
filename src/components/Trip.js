@@ -14,27 +14,27 @@ function Trip() {
         image={Meghalaya1}
         statename="MEGHALAYA"
         heading="Explore Meghalaya"
-        url="/tour"
+        url="/explore-meghalaya"
         text="lorem"
-        days="4 Days - 3 Nights"
+        days="6 Nights / 7 Days"
         knowmore="Know More"
         />
          <TripData
         image={Arunachal1}
         statename="ARUNACHAL PRADESH"
         heading="Explore Tawang"
-        url="/tour"
+        url="/"
         text="lorem"
-        days="4 Days - 3 Nights"
+        days="6 Nights / 7 Days"
         knowmore="Know More"
         />
          <TripData
         image={Assam1}
         statename="ASSAM"
         heading="Explore Kaziranga"
-        url="/tour"
+        url="/"
         text="lorem"
-        days="4 Days - 3 Nights"
+        days="6 Nights / 7 Days"
         knowmore="Know More"
         />
       </div>

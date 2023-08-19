@@ -7,6 +7,7 @@ import Trip from "../components/Trip";
 import img1 from '../assets/arunachal6.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 import CenterMode from '../components/Carousel';
+import Destination2 from '../components/Destination2';
 
 function Home() {
   TabTitle('ithvaraaTravels');
@@ -22,7 +23,8 @@ function Home() {
       url="/"
       btnClass="show anglebg"
       />
-      <Destination/>
+      {/* <Destination/> */} 
+      <Destination2/>
       <Trip/>
       <CenterMode/>
     </>

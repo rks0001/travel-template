@@ -15,7 +15,7 @@ function CollapseMenu(props) {
         aria-controls="collapse-text"
         aria-expanded={open}
       >
-       <div>
+       <div className={props.cName}>
        {props.title}
         </div>
         

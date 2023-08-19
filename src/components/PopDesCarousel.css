@@ -1,21 +1,33 @@
 
 
 @media screen and (min-width:601px){
-  .gallerymain{
-    background-color: #f9f9f9;
-    padding: 2rem 0;
-  }
-    .mainslide{
-        display: block;
-        margin: auto;
-        width: 80%;
-        
-    }
-    .single{
-        margin: 10px;
-        padding: 10px;
-    }
+  
+   
+  .single{
+    position: relative;
+text-align: left;
+color: #f9f9f9;
     
+    
+  }
+  .single .popdestext{
+    position: absolute;
+    bottom: 30px;
+    left: 50px;
+    font-size: 1.3rem;
+    font-weight: 600;
+    letter-spacing: -1px;
+  }
+
+  .single img{
+   height: 20rem;
+   width: 100%;
+   padding: 0 4px;
+  
+ 
+ }
+
+
     .slick-prev,
     .slick-next {
       display: none !important;
@@ -28,7 +40,7 @@
         transform: translateY(-50%);
         cursor: pointer;
         font-size: 24px;
-        
+        color: #ffffff; /* Customize the arrow color */
         background-color: #FF5B25; /* Customize the background color */
         border: 1px solid #FF5B25; /* Customize the border */
         border-radius: 8px;
@@ -39,9 +51,9 @@
       .custom-prev {
         left: 30px;
         top: -20px;
-        color: #ffffff; /* Customize the arrow color */
-        background-color: #ffffff; /* Customize the background color */
-        border: 1px solid #ffffff; /* Customize the border */
+        color: #f9f9f9; /* Customize the arrow color */
+        background-color: #f9f9f9; /* Customize the background color */
+        border: 1px solid #f9f9f9; /* Customize the border */
       
       }
       
@@ -67,20 +79,37 @@
   }
 /* SMALL SCREENS  */
   @media screen and (max-width:600px){
-
-    .gallerymain{
-      background-color: #f9f9f9;
-      padding: 2rem 0;
-    }
+    .popdesmain {
+      padding: 40px 0 0 0;
+          }
     .mainslide{
         display: block;
         margin: auto;
         width: 80%;
     }
+
     .single{
-        margin: 10px;
-        padding: 10px;
+      position: relative;
+  text-align: center;
+  color: white;
+      
+      
     }
+    .single .popdestext{
+      position: absolute;
+      bottom: 20px;
+      left: 40px;
+      text-align: left;
+    }
+
+    .single img{
+     height: 20rem;
+     width: 100%;
+     padding: 0 10px;
+    
+   
+   }
+   
     
     .slick-prev,
     .slick-next {
@@ -105,9 +134,9 @@
       .custom-prev {
         left: 30px;
         top: -20px;
-        color: #f9f9f9; /* Customize the arrow color */
-        background-color: #f9f9f9; /* Customize the background color */
-        border: 1px solid #f9f9f9; /* Customize the border */
+        color: #ffffff; /* Customize the arrow color */
+        background-color: #ffffff; /* Customize the background color */
+        border: 1px solid #ffffff; /* Customize the border */
       }
       
       .custom-next {

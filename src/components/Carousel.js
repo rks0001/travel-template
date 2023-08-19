@@ -28,11 +28,11 @@ export default class Responsive extends Component {
       var settings = {
         dots: false,
       infinite: true,
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       autoplay: true,
-      speed: 2000,
-      autoplaySpeed: 3000,
+      speed: 1300,
+      autoplaySpeed: 2200,
       prevArrow: <CustomPrevArrow />,
       nextArrow: <CustomNextArrow />,
       cssEase: "linear",
@@ -65,7 +65,7 @@ export default class Responsive extends Component {
         ]
       };
     return (
-      <div>
+      <div className="gallerymain">
      
         <h2>Gallery</h2>
        

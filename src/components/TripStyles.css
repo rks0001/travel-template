@@ -1,6 +1,7 @@
 .trip{
-    margin: 4rem 6rem;
-    color: #2a2a2a;
+    padding: 4rem 6rem;
+    color: #000000;
+    background:#ffffff ;
 }
 
 .trip h1{
@@ -13,14 +14,18 @@
     margin-top: 3rem;
     display: flex;
     justify-content: space-between;
+    
+    color: #000000;
 }
 
 .t-card{
+    
     width: 32%;
     text-align: start;
     box-shadow: 0 5px 25px 2px rgba(0,0,0,0.11);
     border-radius: 7px;
     cursor: pointer;
+    color: #fff;
     
 
 }
@@ -83,7 +88,7 @@
 }
 @media screen and (max-width:850px){
     .trip{
-        margin: 4rem 2rem;
+        padding: 4rem 2rem;
     }
     .trip h1{
         font-size: 2.2rem;

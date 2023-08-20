@@ -9,7 +9,7 @@ const myStyles = {
     } 
 
     const btnStyles = {
-        width:"60px",
+        width:"50px",
         zIndex:100,
         
 

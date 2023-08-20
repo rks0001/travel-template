@@ -1,0 +1,28 @@
+.video-carousel {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+  }
+  
+  .carousel-button {
+    background-color: #333;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .prev-button {
+    border-radius: 10px 0 0 10px;
+  }
+  
+  .next-button {
+    border-radius: 0 10px 10px 0;
+  }
+  
+  .video-container {
+    margin: 0 20px;
+  }
+  

@@ -8,9 +8,18 @@ import img1 from '../assets/arunachal6.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 import CenterMode from '../components/Carousel';
 import Destination2 from '../components/Destination2';
+// import CustomerExperiences from '../components/CustomerExperiences';
+// import review1 from '../assets/review1.mp4'
 
 function Home() {
   TabTitle('ithvaraaTravels');
+
+  // const videoUrls = [
+  //   review1,
+  //   review1,
+  //   review1,
+  //   // Add more video URLs
+  // ];
   return (
     <>
       <Hero
@@ -27,6 +36,9 @@ function Home() {
       <Destination2/>
       <Trip/>
       <CenterMode/>
+      {/* <CustomerExperiences
+      videoUrls={videoUrls}
+      /> */}
     </>
   );
 }

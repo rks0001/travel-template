@@ -20,7 +20,7 @@ function Home() {
       title="DISCOVER WANDER REPEAT"
       // text="Unforgettable Journeys Await"
       buttonText="BOOK YOUR ADVENTURE"
-      url="/"
+      url="/contact"
       btnClass="show anglebg"
       />
       {/* <Destination/> */} 

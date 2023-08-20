@@ -41,8 +41,8 @@ export default class Responsive extends Component {
           {
             breakpoint: 1024,
             settings: {
-              slidesToShow: 3,
-              slidesToScroll: 3,
+              slidesToShow: 2,
+              slidesToScroll: 1,
               infinite: true,
               dots: true
             }
@@ -51,7 +51,7 @@ export default class Responsive extends Component {
             breakpoint: 600,
             settings: {
               slidesToShow: 2,
-              slidesToScroll: 2,
+              slidesToScroll: 1,
               initialSlide: 2
             }
           },
@@ -70,22 +70,22 @@ export default class Responsive extends Component {
         <h2>Gallery</h2>
        
         <Slider {...settings} className="mainslide">
-          <div className="single">
+          <div className="single1">
             <img alt="car" src={img1}/>
           </div>
-          <div className="single">
+          <div className="single1">
           <img alt="car" src={img1}/>
           </div>
-          <div className="single">
+          <div className="single1">
           <img alt="car" src={img1}/>
           </div>
-          <div className="single">
+          <div className="single1">
           <img alt="car" src={img1}/>
           </div>
-          <div className="single">
+          <div className="single1">
           <img alt="car" src={img1}/>
           </div>
-          <div className="single">
+          <div className="single1">
           <img alt="car" src={img1}/>
           </div>
         </Slider>

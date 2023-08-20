@@ -52,9 +52,8 @@ color: #f9f9f9;
       .custom-prev {
         left: 30px;
         top: -20px;
-        color: #f9f9f9; /* Customize the arrow color */
-        background-color: #f9f9f9; /* Customize the background color */
-        border: 1px solid #f9f9f9; /* Customize the border */
+        color: transparent; /* Customize the arrow color */
+        background-color: transparent; /* Customize the background color */
       
       }
       

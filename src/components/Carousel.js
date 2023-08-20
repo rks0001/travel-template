@@ -106,14 +106,14 @@ export default class Responsive extends Component {
 
     return (
       <div className="gallerymain">
-        <h2>WHAT PEOPLE SAY ABOUT US?</h2>
+        <h2 className="carhead">WHAT PEOPLE SAY ABOUT US?</h2>
         <Slider {...settings} className="mainslide" ref={this.sliderRef}>
           {videoUrls.map((url, index) => (
             <div className="single1" key={index}>
               <video
                 ref={el => (this.videoRefs[index] = el)}
-                width="520"
-                height="420"
+                // width="520"
+                // height="420"
                 controls
                 // autoPlay
                 // muted

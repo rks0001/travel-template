@@ -33,7 +33,7 @@
         border: 1px solid #FF5B25; /* Customize the border */
         border-radius: 8px;
         padding: 1px 12px;
-        z-index: 1; /* Place the arrows on top of the carousel */
+        /* z-index: 1;  */
       }
       
       .custom-prev {
@@ -99,7 +99,7 @@
         border: 1px solid #FF5B25; /* Customize the border */
         border-radius: 6px;
         padding: 1px 8px;
-        z-index: 1; /* Place the arrows on top of the carousel */
+        /* z-index: 1; */
       }
       
       .custom-prev {

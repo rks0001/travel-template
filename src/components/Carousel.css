@@ -41,6 +41,7 @@
         top: -20px;
         color: transparent; /* Customize the arrow color */
         background-color: transparent; /* Customize the background color */
+        border:none;
       
       }
       
@@ -106,6 +107,7 @@
         top: -20px;
         color: transparent; /* Customize the arrow color */
         background-color: transparent; /* Customize the background color */
+        border:none;
         
       }
       

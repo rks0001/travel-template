@@ -54,6 +54,7 @@ color: #f9f9f9;
         top: -20px;
         color: transparent; /* Customize the arrow color */
         background-color: transparent; /* Customize the background color */
+        border:none;
       
       }
       
@@ -137,6 +138,7 @@ color: #f9f9f9;
         top: -20px;
         color: transparent; /* Customize the arrow color */
         background-color: transparent; /* Customize the background color */
+        border:none;
       }
       
       .custom-next {

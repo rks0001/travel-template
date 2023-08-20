@@ -10,6 +10,8 @@ const myStyles = {
 
     const btnStyles = {
         width:"60px",
+        zIndex:100,
+        
 
         } 
 const WhatsApp = () => {

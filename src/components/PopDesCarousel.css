@@ -135,9 +135,8 @@ color: #f9f9f9;
       .custom-prev {
         left: 30px;
         top: -20px;
-        color: #ffffff; /* Customize the arrow color */
-        background-color: #ffffff; /* Customize the background color */
-        border: 1px solid #ffffff; /* Customize the border */
+        color: transparent; /* Customize the arrow color */
+        background-color: transparent; /* Customize the background color */
       }
       
       .custom-next {

@@ -64,7 +64,7 @@ const MeghalayaTour = () => {
       <h2 className='div-container-title'>Itinerary</h2>
       <CollapseMenu
     cName="day"
-    title="Day 1 "
+    title="DAY 1 "
     text={
       <ul>
         <li>Pickup from Guwahati airport at 8:30 PM</li>
@@ -77,7 +77,7 @@ const MeghalayaTour = () => {
   />
   <CollapseMenu
     cName="day"
-    title="Day 2 "
+    title="DAY 2 "
     text={
       <ul>
         <li>Start to the base village of Krem Cheympe</li>
@@ -90,7 +90,7 @@ const MeghalayaTour = () => {
   />
   <CollapseMenu
     cName="day"
-    title="Day 3 "
+    title="DAY 3 "
     text={
       <ul>
         <li>Krang Shuri falls</li>
@@ -102,7 +102,7 @@ const MeghalayaTour = () => {
   />
   <CollapseMenu
     cName="day"
-    title="Day 4 "
+    title="DAY 4 "
     text={
       <ul>
         <li>India-Bangladesh border</li>
@@ -113,7 +113,7 @@ const MeghalayaTour = () => {
   />
   <CollapseMenu
     cName="day"
-    title="Day 5 "
+    title="DAY 5 "
     text={
       <ul>
         <li>Zipline</li>
@@ -125,7 +125,7 @@ const MeghalayaTour = () => {
   />
   <CollapseMenu
     cName="day"
-    title="Day 6 "
+    title="DAY 6 "
     text={
       <ul>
         <li>The Nongriat trek, Whole day trek</li>
@@ -139,7 +139,7 @@ const MeghalayaTour = () => {
   />
   <CollapseMenu
     cName="day"
-    title="Day 7 "
+    title="DAY 7 "
     text={
       <ul>
         <li>Sacred forest hike</li>

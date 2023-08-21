@@ -63,7 +63,7 @@
     .information{
         background-color: #fff;
        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
-        padding: 20px;
+        padding: 1rem;
         margin: 20px ;
         border-radius: 10px;
     }
@@ -76,12 +76,15 @@
     .day{
         background-color:#FF5B25 ;
         padding: 4px 14px  ;
-     
-        border-radius: 6px ;
+     font-size: 0.8rem;
+     border: none;
+        border-radius: 2px ;
         text-align: center;
+        font-weight: 500;
         color: #f9f9f9;
     }
-    
+
+
     .icon{
         font-size: 1.6rem;
         color: #1f1f1f;
@@ -93,25 +96,27 @@
     }
     .div-container{
         text-align: left;
-        padding: 10px 20px;
+        padding: 0.3rem;
     }
     
     .div-container-title{
         font-size: 1.6rem;
         font-weight: 600;
         color:#1f1f1f ;
+        padding: 1rem 0 0 0;
     
     }
     
     .list1{
         padding: 10px 10px;
-        font-size: 0.9rem;
+        
         font-weight: 400;
-        text-align: justify;
+        text-align: left;
     }
 
     .list1 li{
         padding: 0 0 10px 0;
+        font-size: 0.8rem;
     }
     
     .quote{

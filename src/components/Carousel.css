@@ -60,8 +60,11 @@
         top: -20px;
       }
       .single1 video{
-        background-color: transparent;
-    }
+        
+        padding: 0.1rem 0;
+      height: 320px;
+      width: 420px;
+  }
       .slick-slide>div {
         transform: scale(0.9);
         transition: transform .3s cubic-bezier(.4, 0, .2, 1);
@@ -136,7 +139,7 @@
       }
       
       .gallerymain .custom-next {
-        right: -4px;
+        right: -6px;
         top: 14px;
       }
 

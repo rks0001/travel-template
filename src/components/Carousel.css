@@ -77,12 +77,7 @@
         height: auto;
       }
 
-      .single1 video{
-        
-        
-        height: 320px;
-        width: 420px;
-    }
+    
   }
 /* SMALL SCREENS  */
   @media screen and (max-width:600px){
@@ -141,7 +136,7 @@
       }
       
       .gallerymain .custom-next {
-        right: 2px;
+        right: -4px;
         top: 14px;
       }
 

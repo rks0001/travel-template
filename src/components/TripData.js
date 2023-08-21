@@ -16,13 +16,13 @@ function TripData(props) {
       <div className="t-image">
         <img alt="image" src={props.image}/>
       </div>
-      <p className="statename">{props.statename}</p>
+      <div className="statename">{props.statename}</div>
       <div className="textdiv">
       
       <h4>{props.heading}</h4>
       
       {/* <p>{props.text}</p> */}
-      <p className="days">{props.days}</p>
+      <div className="days">{props.days}</div>
       <div className="knowmore">{props.knowmore}</div>
       </div>
       

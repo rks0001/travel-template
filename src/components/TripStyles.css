@@ -64,28 +64,31 @@
 
 .statename{
     background-color: #1f1f1f;
-    padding: 0.2rem 1rem ;
+    padding: 0.4rem 1rem ;
     color:#fff;
     text-align: left;
     font-weight: 500;
 }
 .t-card h4{
     font-size: 1.3rem;
-    padding: 0 0 .2rem 0;
-    font-weight: 500;
+    padding: .3rem 0 0 0 ;
+    font-weight: 600;
+    letter-spacing: -1px;
 }
 .days{
     
         font-size: 1rem;
-        padding: 0 0 .2rem 0;
-        font-weight: 500;
+     
+        font-weight: 600;
+        letter-spacing: -1px;
 
 }
 
 .knowmore{
     font-size: 1rem;
         padding: 0 0 .2rem 0;
-        font-weight: 500;
+        font-weight: 600;
+        letter-spacing: -1px;
 }
 @media screen and (max-width:850px){
     .trip{

@@ -1,8 +1,20 @@
 @media screen and (min-width:851px){
 .form-container{
     margin: 4rem 6rem;
-    color: #2a2a2a;
+    color: #1f1f1f;
 }
+form label{
+    text-align: left;
+    font-weight: 500;
+}
+form input {
+    margin-bottom: 1rem;
+}
+
+form select {
+    margin-bottom: 1rem;
+}
+
 
 .form-container form{
     padding-top: 3rem;
@@ -15,7 +27,7 @@
 .form-container input{
     height: 3rem;
     padding: 0 1rem;
-    margin-bottom: 2rem;
+   
     border-radius: .3rem;
     border:1px solid #2a2a2a;
 }
@@ -37,12 +49,26 @@
     border: none;
 
 }
+
+
 }
 
 @media screen and (max-width:850px){
     .form-container{
         margin: 4rem 2rem;
        
+    }
+    form label{
+        text-align: left;
+        font-weight: 500;
+        
+    }
+    form input {
+        margin-bottom: 1rem;
+    }
+    
+    form select {
+        margin-bottom: 1rem;
     }
     
     .form-container form{
@@ -57,7 +83,7 @@
     .form-container input{
         height: 3rem;
         padding: 0 1rem;
-        margin-bottom: 2rem;
+        
         border-radius: .3rem;
         border:1px solid #2a2a2a;
     }

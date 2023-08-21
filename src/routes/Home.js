@@ -12,7 +12,7 @@ import Destination2 from '../components/Destination2';
 // import review1 from '../assets/review1.mp4'
 
 function Home() {
-  TabTitle('ithvaraaTravels');
+  TabTitle('ithvaraa');
 
   // const videoUrls = [
   //   review1,

@@ -87,7 +87,7 @@
 @media screen and (max-width: 850px) {
   .NavbarItems {
     z-index: 99;
-    padding: 1.4rem 2rem;
+    padding: 1.2rem 1.4rem;
   }
 
   .nav-menu {

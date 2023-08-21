@@ -32,7 +32,7 @@
     }
     
     /* Custom styles for the custom arrows */
-    .custom-arrow {
+    .gallerymain .custom-arrow {
         position: absolute;
         top: 50%;
         transform: translateY(-50%);
@@ -46,7 +46,7 @@
         /* z-index: 1;  */
       }
       
-      .custom-prev {
+      .gallerymain .custom-prev {
         left: 30px;
         top: -20px;
         color: transparent; /* Customize the arrow color */
@@ -93,7 +93,7 @@
   line-height: 1;
   text-align: left;
   padding: 0 3rem;
-  margin: 0 0 1.6rem 0;
+  margin: 0 0 0.8rem 0;
 }
     .gallerymain{
       background-color: #f9f9f9;
@@ -131,18 +131,18 @@
         /* z-index: 1; */
       }
       
-      .custom-prev {
+      .gallerymain .custom-prev {
         left: 30px;
-        top: -20px;
+        top: 10px;
         color: transparent; /* Customize the arrow color */
         background-color: transparent; /* Customize the background color */
         border:none;
         
       }
       
-      .custom-next {
-        right: 10px;
-        top: -22px;
+      .gallerymain .custom-next {
+        right: 2px;
+        top: 14px;
       }
 
       .slick-slide>div {

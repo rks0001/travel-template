@@ -81,7 +81,7 @@ color: #f9f9f9;
 /* SMALL SCREENS  */
   @media screen and (max-width:600px){
     .popdesmain {
-      padding: 40px 0 0 0;
+      padding: 0.4rem 0 ;
           }
     .mainslide{
         display: block;
@@ -142,8 +142,8 @@ color: #f9f9f9;
       }
       
       .custom-next {
-        right: 10px;
-        top: -22px;
+        right: 2px;
+        top: -32px;
       }
 
       .slick-slide>div {

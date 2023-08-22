@@ -83,7 +83,7 @@ export default class PopDesCarousel extends Component {
           <div className="single">
           <Link to="/contact" onClick={scrollToTop}>
             <img alt="popdes" src={popDes1}/>
-            <div className="popdestext2">SALE<br/>4N/5D MMM</div>
+            <div className="popdestext2">MEGHALAYA<br/>4N/5D</div>
             </Link>
           </div>
           
@@ -91,7 +91,7 @@ export default class PopDesCarousel extends Component {
          <div className="single">
          <Link  to="/contact" onClick={scrollToTop}>
           <img alt="popdes" src={popDes2}/>
-          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
+          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
           </Link>
           </div>
          
@@ -99,7 +99,7 @@ export default class PopDesCarousel extends Component {
            <div className="single">        
            <Link  to="/contact" onClick={scrollToTop}>
            <div><img alt="popdes" src={popDes3}/></div>
-           <div className="popdestext2">SALE<br/>4N/5D M</div>
+           <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
            </Link>
            </div>
           
@@ -107,7 +107,7 @@ export default class PopDesCarousel extends Component {
           <div className="single">
               <Link  to="/contact" onClick={scrollToTop}> 
           <img alt="popdes" src={popDes4}/>
-          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
+          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
           </Link>
           </div>
          
@@ -115,7 +115,7 @@ export default class PopDesCarousel extends Component {
           <div className="single">
           <Link  to="/contact" onClick={scrollToTop}>
           <img alt="popdes" src={popDes5}/>
-          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
+          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
           </Link>
           </div>
           
@@ -123,7 +123,7 @@ export default class PopDesCarousel extends Component {
           <div className="single">
           <Link  to="/contact" onClick={scrollToTop}>
           <img alt="popdes" src={popDes6}/>
-          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
+          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
           </Link>
           </div>
         

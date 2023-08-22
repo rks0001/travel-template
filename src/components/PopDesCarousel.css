@@ -17,7 +17,7 @@ color: #f9f9f9;
     font-size: 1.1rem;
     font-weight: 600;
     letter-spacing: -1px;
-    background-color: #FF5B25;
+    background-color: #AC2900;
     width: 100%;
     overflow: hidden;
     border-radius: 4px;
@@ -27,23 +27,27 @@ color: #f9f9f9;
 
     /* position: absolute;
     bottom: 30px; */
-    text-align: left;
+    text-align: right;
     margin-top: -2px;
-    padding: 10px 0 10px 30px;
-    font-size: 1.1rem;
-    font-weight: 500;
+    padding: 10px 30px 10px 30px;
+    font-size: 1.2rem;
+    font-weight: 600;
+    letter-spacing: 4px;
 text-decoration: none;
-    background-color: #FF5B25;
+    background-color: #AC2900;
+    color: #f9f9f9;
     width: 100%;
     overflow: hidden;
     border-radius: 0 0 0.3rem 2.5rem ;
+    box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
     
   }
   .single img{
-   height: 22rem;
+   height: 18rem;
    width: 100%;
  overflow: hidden;
-   border-radius: 2.5rem 2.5rem 0 0;
+   border-radius: 1.1rem 1.1rem 0 0;
+   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
   
  
  }
@@ -63,8 +67,8 @@ text-decoration: none;
         cursor: pointer;
         font-size: 24px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #FF5B25; /* Customize the background color */
-        border: 1px solid #FF5B25; /* Customize the border */
+        background-color: #AC2900; /* Customize the background color */
+        border: 1px solid #AC2900; /* Customize the border */
         border-radius: 8px;
         padding: 1px 12px;
         /* z-index: 1; */
@@ -122,7 +126,7 @@ text-decoration: none;
   color: white;
   display: flex;
   flex-direction: column;
-      
+  
       
     }
 
@@ -141,7 +145,7 @@ text-decoration: none;
       font-size: 1.1rem;
       font-weight: 500;
    
-      background-color: #FF5B25;
+      background-color: #050A0F;
       width: 100%;
       overflow: hidden;
       border-radius: 4px;
@@ -151,22 +155,25 @@ text-decoration: none;
 
       /* position: absolute;
       bottom: 30px; */
-      text-align: left;
-      padding: 8px 0 8px 24px;
-      font-size: 1.1rem;
+      text-align: right;
+      padding: 8px 24px 8px 24px;
+      font-size: 1.2rem;
       font-weight: 500;
+      letter-spacing: 4px;
   text-decoration: none;
-      background-color: #FF5B25;
+      background-color: #AC2900;
+      color: #f9f9f9;
       width: 100%;
       overflow: hidden;
-      border-radius: 0 0 0.1rem 2rem;
+      border-radius: 0 0 0.4rem 1.8rem;
+      box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
       
     }
     .single img{
      height: 16rem;
      width: 100%;
-
-     border-radius: 20px 20px 0 0 ;
+     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
+     border-radius: 1rem 1rem 0 0 ;
     
    
    }
@@ -185,8 +192,8 @@ text-decoration: none;
         cursor: pointer;
         font-size: 16px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #FF5B25; /* Customize the background color */
-        border: 1px solid #FF5B25; /* Customize the border */
+        background-color: #AC2900; /* Customize the background color */
+        border: 1px solid #AC2900; /* Customize the border */
         border-radius: 6px;
         padding: 1px 8px;
         /* z-index: 1;  */

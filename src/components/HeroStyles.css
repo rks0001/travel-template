@@ -73,18 +73,18 @@ img{
     overflow: hidden;
     color: rgb(255, 255, 255);
     text-decoration: none;
-   
-    border-radius: 3px;
-    background-color:#FF5B25;
-  border: 1px solid #FF5B25;
+   font-weight: 500;
+    border-radius: 6px;
+    background-color:#AC2900;
+  border: 1px solid #AC2900;
 
 }
 
 .hero-text .show:hover{
     background-position: 100% 50%;
     transition: .3s ease-in;
-    background-color: #FF5B25;
-  border-color:#FF5B25;
+    background-color: #AC2900;
+  border-color:#AC2900;
   color: white;
  
  }
@@ -142,16 +142,16 @@ img{
     text-decoration: none;
    
     border-radius: 3px;
-    background-color:#FF5B25;
-  border: 1px solid #FF5B25;
+    background-color:#AC2900;
+  border: 1px solid #AC2900;
 
 }
 
 .hero-text2 .show:hover{
     background-position: 100% 50%;
     transition: .3s ease-in;
-    background-color: #FF5B25;
-  border-color:#FF5B25;
+    background-color: #AC2900;
+  border-color:#AC2900;
   color: white;
  
  }
@@ -271,8 +271,8 @@ img{
      text-decoration: none;
     margin: 0.4rem 2.4rem;
      border-radius: 3px;
-     background-color:#FF5B25;
-   border: 1px solid #FF5B25;
+     background-color:#AC2900;
+   border: 1px solid #AC2900;
    font-weight: 400;
  
  }
@@ -280,8 +280,8 @@ img{
  .hero-text .show:hover{
      background-position: 100% 50%;
      transition: .3s ease-in;
-     background-color: #FF5B25;
-   border-color:#FF5B25;
+     background-color: #AC2900;
+   border-color:#AC2900;
    color: white;
   
   }
@@ -345,16 +345,16 @@ img{
     text-decoration: none;
    margin: 0.4rem 2rem;
     border-radius: 3px;
-    background-color:#FF5B25;
-  border: 1px solid #FF5B25;
+    background-color:#AC2900;
+  border: 1px solid #AC2900;
 
 }
 
 .hero-text2 .show:hover{
     background-position: 100% 50%;
     transition: .3s ease-in;
-    background-color: #FF5B25;
-  border-color:#FF5B25;
+    background-color: #AC2900;
+  border-color:#AC2900;
   color: white;
  
  }

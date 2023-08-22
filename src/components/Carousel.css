@@ -39,8 +39,8 @@
         cursor: pointer;
         font-size: 24px;
         
-        background-color: #FF5B25; /* Customize the background color */
-        border: 1px solid #FF5B25; /* Customize the border */
+        background-color: #AC2900; /* Customize the background color */
+        border: 1px solid #AC2900; /* Customize the border */
         border-radius: 8px;
         padding: 1px 12px;
         /* z-index: 1;  */
@@ -122,8 +122,8 @@
         cursor: pointer;
         font-size: 16px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #FF5B25; /* Customize the background color */
-        border: 1px solid #FF5B25; /* Customize the border */
+        background-color: #AC2900; /* Customize the background color */
+        border: 1px solid #AC2900; /* Customize the border */
         border-radius: 6px;
         padding: 1px 8px;
         /* z-index: 1; */

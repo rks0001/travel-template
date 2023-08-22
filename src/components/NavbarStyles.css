@@ -25,7 +25,7 @@ ul{
 }
 .navbar-logo a {
   text-decoration: none;
-  color: #FF5B25;
+  color: #AC2900;
   font-weight: 600;
   font-size: 1.8rem;
   letter-spacing: -1px;
@@ -51,7 +51,7 @@ ul{
 }
 
 .linksdiv:hover {
-  border-bottom: 3px solid #FF5B25;
+  border-bottom: 3px solid #AC2900;
   transition: 0.3s ease-in;
 }
 
@@ -137,7 +137,7 @@ ul{
   }
 
   .nav-links:hover {
-    background: #FF5B25;
+    background: #AC2900;
     transition: 0.6s ease-in;
   }
 

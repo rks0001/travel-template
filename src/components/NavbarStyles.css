@@ -65,7 +65,7 @@ ul{
 }
 
 .nav-links:hover {
-  color: #050A0F;
+  color: #AC2900;
   border-radius: 4px;
   transition: all 0.2s ease-in-out;
 }
@@ -137,6 +137,7 @@ ul{
   }
 
   .nav-links:hover {
+    color: #AC2900;
     background: #AC2900;
     transition: 0.6s ease-in;
   }

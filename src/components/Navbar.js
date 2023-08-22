@@ -7,7 +7,7 @@ import logo1 from '../assets/ithvaraa.jpg'
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
-  const [navbarBackground, setNavbarBackground] = useState("#050A0F");
+  const [navbarBackground, setNavbarBackground] = useState("#fff");
   const [navlinkColor, setNavlinkColor] = useState("#f9f9f9");
 
   const handleClick = () => {
@@ -27,10 +27,10 @@ const Navbar = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 10) {
-      setNavbarBackground("#050A0F");
+      setNavbarBackground("#fff");
       setNavlinkColor("#1f1f1f")
     } else {
-      setNavbarBackground("#050A0F");
+      setNavbarBackground("#fff");
       setNavlinkColor("#f9f9f9")
     }
   };

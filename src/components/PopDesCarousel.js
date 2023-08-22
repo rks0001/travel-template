@@ -79,42 +79,54 @@ export default class PopDesCarousel extends Component {
       <div className="popdesmain">
         
         <Slider {...settings}>
+          
+          <div className="single">
           <Link to="/contact" onClick={scrollToTop}>
-          <div className="single">
             <img alt="popdes" src={popDes1}/>
-            <div className="popdestext">SALE<br/>4N/5D Meghalaya</div>
+            <div className="popdestext2">SALE<br/>4N/5D MMM</div>
+            </Link>
           </div>
-          </Link>
-         <Link  to="/contact" onClick={scrollToTop}>
+          
+         
          <div className="single">
+         <Link  to="/contact" onClick={scrollToTop}>
           <img alt="popdes" src={popDes2}/>
-          <div className="popdestext">SALE<br/>4N/5D Meghalaya</div>
+          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
+          </Link>
           </div>
-         </Link>
-           <Link  to="/contact" onClick={scrollToTop}>
+         
+          
            <div className="single">        
-           <img alt="popdes" src={popDes3}/>
-           <div className="popdestext">SALE<br/>4N/5D M</div>
-           </div>
+           <Link  to="/contact" onClick={scrollToTop}>
+           <div><img alt="popdes" src={popDes3}/></div>
+           <div className="popdestext2">SALE<br/>4N/5D M</div>
            </Link>
-          <Link  to="/contact" onClick={scrollToTop}> 
+           </div>
+          
+        
           <div className="single">
+              <Link  to="/contact" onClick={scrollToTop}> 
           <img alt="popdes" src={popDes4}/>
-          <div className="popdestext">SALE<br/>4N/5D Meghalaya</div>
-          </div>
+          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
           </Link>
-          <Link  to="/contact" onClick={scrollToTop}>
+          </div>
+         
+         
           <div className="single">
+          <Link  to="/contact" onClick={scrollToTop}>
           <img alt="popdes" src={popDes5}/>
-          <div className="popdestext">SALE<br/>4N/5D Meghalaya</div>
-          </div>
+          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
           </Link>
-          <Link  to="/contact" onClick={scrollToTop}>
+          </div>
+          
+         
           <div className="single">
+          <Link  to="/contact" onClick={scrollToTop}>
           <img alt="popdes" src={popDes6}/>
-          <div className="popdestext">SALE<br/>4N/5D Meghalaya</div>
-          </div>
+          <div className="popdestext2">SALE<br/>4N/5D Meghalaya</div>
           </Link>
+          </div>
+        
           
          
         </Slider>

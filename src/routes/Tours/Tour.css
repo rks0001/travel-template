@@ -1,6 +1,20 @@
 
 @media screen and (min-width:851px){
+   .layoutmain{
+    display: flex;
+    flex-direction: row;
+   }
+
+   .leftpanel{
+width: 60%;
+   }
+
+   .rightpanel{
+    width: 40%;
+     
    
+   }
+ 
 .information{
     background-color: #fff;
    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
@@ -53,13 +67,20 @@
     background-color:#FF5B25 ;
     padding: 4px 14px  ;
  
-    border-radius: 6px ;
+    border-radius: 2px ;
     text-align: center;
     color: #f9f9f9;
 }
 }
 @media screen and (max-width:850px){
-
+    .layoutmain{
+        display: flex;
+        flex-direction: column;
+       }
+    
+       .leftpanel{
+    width: 100%;
+       }
     .information{
         background-color: #fff;
        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);

@@ -1,12 +1,12 @@
 import "./FooterStyles.css";
 import React from 'react';
-
+import logo1 from "../assets/ithvaraa.jpg"
 const Footer = () => {
   return (
     <div className="footer">
       <div className="top">
         <div>
-          <h1 className="brandname">ithvaraa</h1>
+          <h1 className="brandname"><img  className="footer-logo" alt="logo" src={logo1}/></h1>
           
         </div>
         <div>
@@ -42,6 +42,7 @@ const Footer = () => {
           <a href="/">Refund Policy</a>
         </div>
       </div>
+      <div className="allrights">ithavaraa 2023. All rights reserved</div>
     </div>
   );
 };

@@ -2,12 +2,12 @@ import React, { useState, useEffect } from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
-import logo1 from '../assets/ithvaraa-logo.png'
+import logo1 from '../assets/ithvaraa.jpg'
 
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
-  const [navbarBackground, setNavbarBackground] = useState("#fff");
+  const [navbarBackground, setNavbarBackground] = useState("#050A0F");
   const [navlinkColor, setNavlinkColor] = useState("#f9f9f9");
 
   const handleClick = () => {
@@ -27,10 +27,10 @@ const Navbar = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 10) {
-      setNavbarBackground("#fff");
+      setNavbarBackground("#050A0F");
       setNavlinkColor("#1f1f1f")
     } else {
-      setNavbarBackground("#fff");
+      setNavbarBackground("#050A0F");
       setNavlinkColor("#f9f9f9")
     }
   };

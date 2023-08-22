@@ -14,6 +14,7 @@
 .tripcard{
     margin-top: 1rem;
     display: flex;
+    
     justify-content: space-between;
     
     color: #000000;
@@ -28,6 +29,7 @@
     cursor: pointer;
     color: #fff;
     
+    
 
 }
 
@@ -38,7 +40,7 @@
 }
 
 .t-image{
-    height: 250px;
+    height: 150px;
     overflow: hidden;
     /* border-radius: 7px  7px 0 0 ; */
 

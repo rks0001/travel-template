@@ -1,5 +1,7 @@
 import "./HeroStyles.css";
 import React from 'react';
+import {Link} from 'react-router-dom'
+
 function Hero(props) {
   return (
     <>
@@ -8,7 +10,7 @@ function Hero(props) {
         <div className={props.cName2}>
           <h1>{props.title}</h1>
           
-          <a href={props.url} className={props.btnClass}>{props.buttonText}</a>
+          <Link to={props.url} className={props.btnClass}>{props.buttonText}</Link>
         </div>
       </div>
     </>

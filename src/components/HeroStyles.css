@@ -220,7 +220,7 @@ img{
  .hero .hero-text h1{
      font-size: 3.2rem;
      text-align: left;
-     padding: 0 3rem;
+     padding: 0 2.2rem;
      line-height: 1.1;
      font-weight: 700;
      letter-spacing: 1px;
@@ -259,7 +259,7 @@ img{
      overflow: hidden;
      color: rgb(255, 255, 255);
      text-decoration: none;
-    margin: 0.4rem 3rem;
+    margin: 0.4rem 2.4rem;
      border-radius: 3px;
      background-color:#FF5B25;
    border: 1px solid #FF5B25;

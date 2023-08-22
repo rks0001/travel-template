@@ -15,27 +15,30 @@ function Trip() {
         statename="MEGHALAYA"
         heading="Explore Meghalaya"
         url="/explore-meghalaya"
+        price="₹ 21,499"
         text="lorem"
-        days="6 Nights / 7 Days"
-        knowmore="Know More"
+        days="6N/7D"
+        knowmore="Know More>"
         />
          <TripData
         image={Arunachal1}
         statename="ARUNACHAL PRADESH"
         heading="Explore Tawang"
         url="/"
+        price="₹ 21,499"
         text="lorem"
-        days="6 Nights / 7 Days"
-        knowmore="Know More"
+        days="6N/7D"
+        knowmore="Know More>"
         />
          <TripData
         image={Assam1}
         statename="ASSAM"
         heading="Explore Kaziranga"
         url="/"
+        price="₹ 21,499"
         text="lorem"
-        days="6 Nights / 7 Days"
-        knowmore="Know More"
+        days="6N/7D"
+        knowmore="Know More>"
         />
       </div>
     </div>

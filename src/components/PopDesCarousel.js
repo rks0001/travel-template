@@ -43,7 +43,7 @@ export default class PopDesCarousel extends Component {
         slidesToShow: 3,
         slidesToScroll: 1,
         autoplay: true,
-        speed: 1300,
+        speed: 2300,
         autoplaySpeed: 2000,
         prevArrow: <CustomPrevArrow />,
       nextArrow: <CustomNextArrow />,

@@ -13,17 +13,21 @@ color: #f9f9f9;
   .single .popdestext{
     position: absolute;
     bottom: 30px;
-    left: 50px;
+    padding-left: 50px;
     font-size: 1.3rem;
     font-weight: 600;
     letter-spacing: -1px;
+    background-color: #FF5B25;
+    width: 100%;
+    overflow: hidden;
+    border-radius: 4px;
   }
 
   .single img{
-   height: 20rem;
+   height: 22rem;
    width: 100%;
    padding: 0 4px;
-   border-radius: 20px;
+   border-radius: 2.5rem;
   
  
  }
@@ -91,16 +95,26 @@ color: #f9f9f9;
 
     .single{
       position: relative;
+      margin: 0 0.5rem;
   text-align: center;
   color: white;
       
       
     }
     .single .popdestext{
+      
+
       position: absolute;
-      bottom: 20px;
-      left: 40px;
+      bottom: 30px;
       text-align: left;
+      padding: 4px 0 4px 24px;
+      font-size: 1.2rem;
+      font-weight: 600;
+      letter-spacing: -1px;
+      background-color: #FF5B25;
+      width: 100%;
+      overflow: hidden;
+      border-radius: 4px;
     }
 
     .single img{

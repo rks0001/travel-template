@@ -2,11 +2,13 @@ import React, { useState, useEffect } from "react";
 import "./NavbarStyles.css";
 import { MenuItems } from "./MenuItems";
 import { Link } from "react-router-dom";
+import logo1 from '../assets/ithvaraa-logo.png'
 
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
-  const [navbarBackground, setNavbarBackground] = useState("transparent");
+  const [navbarBackground, setNavbarBackground] = useState("#fff");
+  const [navlinkColor, setNavlinkColor] = useState("#f9f9f9");
 
   const handleClick = () => {
     setClicked(!clicked);
@@ -25,9 +27,11 @@ const Navbar = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 10) {
-      setNavbarBackground("#1f1f1f");
+      setNavbarBackground("#fff");
+      setNavlinkColor("#1f1f1f")
     } else {
-      setNavbarBackground("transparent");
+      setNavbarBackground("#fff");
+      setNavlinkColor("#f9f9f9")
     }
   };
 
@@ -41,13 +45,13 @@ const Navbar = () => {
   return (
     <div>
  <div className="NavbarItems" style={{ background: navbarBackground }}>
-      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/"> ithvaraa</Link></h1>
+      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/"> <img className="logo-img" alt="logo" src={logo1} /></Link></h1>
       <div className="menu-icons" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>
       <ul className={clicked ? "nav-menu active" : "nav-menu"}>
         {MenuItems.map((item, index) => (
-          <div key={index} className="linksdiv">
+          <div key={index} className="linksdiv"  >
              <li>
             <Link
               onClick={() => {

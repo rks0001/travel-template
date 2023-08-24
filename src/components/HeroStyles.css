@@ -172,7 +172,8 @@ img{
         height: 80vh;
         position: relative; 
         overflow: hidden;
-        border-radius: 0 0 70px 70px;
+        background: #f9f9f9;
+        border-radius: 0 0 100px 0;
      }
 .hero-text h1{
     padding: 10px 20px;

@@ -7,19 +7,19 @@ import aboutImg from '../assets/meghalaya1.jpg'
 import Services from "../components/Services";
 function Service() {
   return (
-    <>
+    <div className='mainsection'>
    
-         <Hero
+         {/* <Hero
       cName="hero-mid"
       cName2="hero-text2"
       heroImg={aboutImg}
       title="SERVICES"
       
       btnClass="hide"
-      />
+      /> */}
       <Services/>
       <Trip/>
-    </>
+    </div>
   );
 }
 

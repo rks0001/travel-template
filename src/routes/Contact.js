@@ -5,8 +5,8 @@ import ContactForm from "../components/ContactForm";
 import aboutImg from '../assets/arunachal6.jpg'
 function Contact() {
   return (
-    <>
-    
+    <div className='mainsection'>
+{/*     
          <Hero
       cName="hero-mid"
       cName2="hero-text2"
@@ -14,9 +14,9 @@ function Contact() {
       title="CONTACT US"
       
       btnClass="hide"
-      />
+      /> */}
       <ContactForm/>
-    </>
+    </div>
   );
 }
 

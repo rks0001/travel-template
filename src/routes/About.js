@@ -8,18 +8,18 @@ import aboutImg from '../assets/meghalaya5.jpg'
 
 function About() {
   return (
-    <>
-         <Hero
+    <div className='mainsection'>
+         {/* <Hero
       cName="hero-mid"
       cName2="hero-text2"
       heroImg={aboutImg}
       title="ABOUT US"
       
       btnClass="hide"
-      />
+      /> */}
       <AboutUs/>
       
-    </>
+    </div>
   );
 }
 

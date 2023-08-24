@@ -1,10 +1,12 @@
 import React from 'react';
 import Hero from "../components/Hero";
 import Trip from "../components/Trip";
-import img1 from '../assets/arunachal2.jpg'
+import img1 from '../assets/arunachal9.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 import CenterMode from '../components/Carousel';
 import Destination2 from '../components/Destination2';
+
+import PhotoGallery from '../components/Gallery';
 // import CustomerExperiences from '../components/CustomerExperiences';
 // import review1 from '../assets/review1.mp4'
 
@@ -33,6 +35,7 @@ function Home() {
       <Destination2/>
       <Trip/>
       <CenterMode/>
+      <PhotoGallery/>
       {/* <CustomerExperiences
       videoUrls={videoUrls}
       /> */}

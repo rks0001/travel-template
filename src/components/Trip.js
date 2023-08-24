@@ -7,8 +7,8 @@ import React from 'react';
 function Trip() {
   return (
     <div className="trip">
-      <h1>DISCOVER TOURS</h1>
-      <p className="description">Tours that Transcend</p>
+      <h1>Discover Tours</h1>
+      <p className="description">THERE'S A TOUR FOR EVERYONE</p>
       <div className="tripcard">
         <TripData
         image={Meghalaya1}

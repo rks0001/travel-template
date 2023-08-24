@@ -14,7 +14,7 @@ const MeghalayaTour = () => {
   return (
     <>
 
-   <Hero
+   {/* <Hero
       cName="hero-mid"
       cName2="hero-text2"
       heroImg={img1}
@@ -23,7 +23,7 @@ const MeghalayaTour = () => {
       buttonText="Book Your Adventure"
       url="/"
       btnClass="hide"
-      />
+      /> */}
 <div className="layoutmain">
        {/* left panel */}
        <div className='leftpanel'>

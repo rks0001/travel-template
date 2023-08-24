@@ -6,42 +6,52 @@
   .single{
     position: relative;
 text-align: left;
-color: #f9f9f9;
+
+/* 
+background-color: #9599E2;
+background-image: linear-gradient(225deg, #9599E2 1%, #4b95c2 100%); */
+
+background: url(../assets/mountain2.jpg);
+
+
+
+
+
+
+border-radius: 0.8rem;
     
     
   }
-  .single .popdestext{
-    position: absolute;
-    bottom: 30px;
-    padding: 4px 0 4px 30px;
-    font-size: 1.1rem;
-    font-weight: 600;
-    letter-spacing: -1px;
-    background-color: #AC2900;
-    width: 100%;
-    overflow: hidden;
-    border-radius: 4px;
-  }
+.lay1{
+  display: flex;
+  flex-direction: column;
+}
+
+.leftlay{
+  width: 100%;
+}
+
   .single .popdestext2{
       
 
     /* position: absolute;
     bottom: 30px; */
     text-align: left;
-    margin-top: -2px;
-    padding: 10px 30px 10px 10px;
-    font-size: 1.2rem;
-    font-weight: 600;
-    letter-spacing: 1px;
-color: #050A0F;
+    
+    padding: 0.8rem 1.4rem ;
+    font-size: 1.4rem;
+    font-weight: 400;
+    
+color: #ffffff;
     
   }
   .single img{
-   height: 18rem;
+   height: 19rem;
    width: 100%;
  overflow: hidden;
-   border-radius: 1.1rem 1.1rem 0 0;
-   box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
+   border-radius: 0.8rem 0.8rem  0 0 ;
+
+   /* padding: 1rem; */
   
  
  }
@@ -61,8 +71,8 @@ color: #050A0F;
         cursor: pointer;
         font-size: 24px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #AC2900; /* Customize the background color */
-        border: 1px solid #AC2900; /* Customize the border */
+        background-color: #050816; /* Customize the background color */
+        border: 1px solid #050816; /* Customize the border */
         border-radius: 8px;
         padding: 1px 12px;
         /* z-index: 1; */
@@ -121,6 +131,7 @@ color: #050A0F;
   display: flex;
   flex-direction: column;
   
+border-radius: 0.8rem;
       
     }
 
@@ -142,7 +153,7 @@ color: #050A0F;
       background-color: #050A0F;
       width: 100%;
       overflow: hidden;
-      border-radius: 4px;
+      
     }
     .single .popdestext2{
       
@@ -151,11 +162,15 @@ color: #050A0F;
       bottom: 30px; */
       text-align: left;
       margin-top: -2px;
-      padding: 10px 30px 10px 10px;
+      padding: 1rem 1rem;
       font-size: 1.2rem;
-      font-weight: 600;
+      font-weight: 500;
       letter-spacing: 1px;
-  color: #050A0F;
+  color: #f9f9f9;
+  /* background-color: #9599E2;
+  background-image: linear-gradient(225deg, #9599E2 1%, #4b95c2 100%); */
+  background: url(../assets/mountain2.jpg);
+border-radius:  0 0 0.8rem 0.8rem;
       
     }
     .single img{
@@ -181,8 +196,8 @@ color: #050A0F;
         cursor: pointer;
         font-size: 16px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #AC2900; /* Customize the background color */
-        border: 1px solid #AC2900; /* Customize the border */
+        background-color: #050816; /* Customize the background color */
+        border: 1px solid #050816; /* Customize the border */
         border-radius: 6px;
         padding: 1px 8px;
         /* z-index: 1;  */

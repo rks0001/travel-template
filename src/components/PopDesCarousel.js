@@ -82,50 +82,58 @@ export default class PopDesCarousel extends Component {
           
           <div className="single">
           <Link to="/contact" onClick={scrollToTop}>
-            <img alt="popdes" src={popDes1}/>
-            <div className="popdestext2">MEGHALAYA<br/>4N/5D</div>
+            <div className="lay1">
+              <div><img alt="popdes" src={popDes1}/></div>
+            <div className="popdestext2">MEGHALAYA<br/> 4N/5D</div>
+            </div>
+            <div>
+              
+            </div>
+            
             </Link>
           </div>
           
-         
-         <div className="single">
-         <Link  to="/contact" onClick={scrollToTop}>
-          <img alt="popdes" src={popDes2}/>
-          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
-          </Link>
-          </div>
-         
-          
-           <div className="single">        
-           <Link  to="/contact" onClick={scrollToTop}>
-           <div><img alt="popdes" src={popDes3}/></div>
-           <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
-           </Link>
-           </div>
-          
-        
           <div className="single">
-              <Link  to="/contact" onClick={scrollToTop}> 
-          <img alt="popdes" src={popDes4}/>
-          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
-          </Link>
+          <Link to="/contact" onClick={scrollToTop}>
+            <div className="lay1">
+              <div className="leftlay"><img alt="popdes" src={popDes2}/></div>
+            <div className="popdestext2">MEGHALAYA<br/> 4N/5D</div>
+            </div>
+            
+            </Link>
           </div>
-         
-         
+
           <div className="single">
-          <Link  to="/contact" onClick={scrollToTop}>
-          <img alt="popdes" src={popDes5}/>
-          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
-          </Link>
+          <Link to="/contact" onClick={scrollToTop}>
+            <div className="lay1">
+              <div><img alt="popdes" src={popDes3}/></div>
+            <div className="popdestext2">MEGHALAYA<br/> 4N/5D</div>
+            </div>
+            
+            </Link>
           </div>
-          
-         
+
           <div className="single">
-          <Link  to="/contact" onClick={scrollToTop}>
-          <img alt="popdes" src={popDes6}/>
-          <div className="popdestext2">MEGHALAYA<br/>4N/5D </div>
-          </Link>
+          <Link to="/contact" onClick={scrollToTop}>
+            <div className="lay1">
+              <div><img alt="popdes" src={popDes4}/></div>
+            <div className="popdestext2">MEGHALAYA<br/> 4N/5D</div>
+            </div>
+            
+            </Link>
           </div>
+
+          <div className="single">
+          <Link to="/contact" onClick={scrollToTop}>
+            <div className="lay1">
+              <div><img alt="popdes" src={popDes5}/></div>
+            <div className="popdestext2">MEGHALAYA<br/> 4N/5D</div>
+            </div>
+            
+            </Link>
+          </div>
+         
+       
         
           
          

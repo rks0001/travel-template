@@ -7,7 +7,7 @@ import logo1 from '../assets/ithvaraa-logo.png'
 
 const Navbar = () => {
   const [clicked, setClicked] = useState(false);
-  const [navbarBackground, setNavbarBackground] = useState("transparent");
+  const [navbarBackground, setNavbarBackground] = useState("#050816");
   const [navlinkColor, setNavlinkColor] = useState("#f9f9f9");
 
   const handleClick = () => {
@@ -27,10 +27,10 @@ const Navbar = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 10) {
-      setNavbarBackground("#fff");
+      setNavbarBackground("#050816");
       setNavlinkColor("#1f1f1f")
     } else {
-      setNavbarBackground("transparent");
+      setNavbarBackground("#050816");
       setNavlinkColor("#f9f9f9")
     }
   };
@@ -45,7 +45,8 @@ const Navbar = () => {
   return (
     <div>
  <div className="NavbarItems" style={{ background: navbarBackground }}>
-      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/"> <img className="logo-img" alt="logo" src={logo1} /></Link></h1>
+      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/">ithvaraa </Link></h1>
+      {/* <img className="logo-img" alt="logo" src={logo1} /> */}
       <div className="menu-icons" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>

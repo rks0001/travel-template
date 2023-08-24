@@ -3,6 +3,7 @@
    .layoutmain{
     display: flex;
     flex-direction: row;
+    padding: 5rem 0;
    }
 
    .leftpanel{
@@ -64,7 +65,7 @@ width: 60%;
 
 
 .day{
-    background-color:#AC2900 ;
+    background-color:#050816 ;
     padding: 4px 14px  ;
  
     border-radius: 2px ;
@@ -95,7 +96,7 @@ width: 60%;
     }
 
     .day{
-        background-color:#AC2900 ;
+        background-color:#050816 ;
         padding: 4px 14px  ;
      font-size: 0.8rem;
      border: none;

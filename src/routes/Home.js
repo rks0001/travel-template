@@ -1,32 +1,23 @@
 import React from 'react';
 import Hero from "../components/Hero";
 import Trip from "../components/Trip";
-import img1 from '../assets/arunachal9.jpg'
+import img1 from '../assets/mountain2.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 import CenterMode from '../components/Carousel';
 import Destination2 from '../components/Destination2';
 
-import PhotoGallery from '../components/Gallery';
-// import CustomerExperiences from '../components/CustomerExperiences';
-// import review1 from '../assets/review1.mp4'
+
 
 function Home() {
   TabTitle('ithvaraa');
-
-  // const videoUrls = [
-  //   review1,
-  //   review1,
-  //   review1,
-  //   // Add more video URLs
-  // ];
   return (
     <>
       <Hero
       cName="hero"
       cName2="hero-text"
       heroImg={img1}
-      title="DISCOVER WANDER REPEAT"
-      // text="Unforgettable Journeys Await"
+      title="Welcome to"
+      text="DISCOVER WANDER REPEAT"
       buttonText="BOOK YOUR ADVENTURE"
       url="/contact"
       btnClass="show anglebg"
@@ -35,7 +26,7 @@ function Home() {
       <Destination2/>
       <Trip/>
       <CenterMode/>
-      <PhotoGallery/>
+      {/* <PhotoGallery/> */}
       {/* <CustomerExperiences
       videoUrls={videoUrls}
       /> */}

@@ -67,7 +67,7 @@ export default class Responsive extends Component {
 
     return (
       <div className="gallerymain">
-        <h2 className="carhead">WHAT PEOPLE SAY ABOUT US?</h2>
+        <h2 className="carhead">What People Say About Us?</h2>
         <Slider {...settings} className="mainslide">
           {videoUrls.map((url, index) => (
             <div className="single1" key={index}>

@@ -4,23 +4,34 @@
 @media screen and (min-width:851px){
     .destination2{
         padding: 4rem 6rem;
-        background-color: #F9F9F9;
+        background-color: #f9f9f9;
+        
+        
+        
     
     }
     
     .destination2 h1{
         font-size: 3rem;
-        font-weight: 600;
+        color: #050816;
+        font-weight: 800;
         letter-spacing: 1px;
         text-align: center;
         line-height: 1;
     }
+
+    .description{
+        color: #6E6C84;
+        font-weight: 500;
+        font-size: 1.2rem;
+    }
 }
-@media screen and (max-width:850px){
+@media screen and (max-width:850px ){
     .destination2{
         padding: 2.4rem 2.5rem 3rem 2.5rem;
         background-color: #F9F9F9;
-    
+       
+       
     }
     
     .destination2 h1{

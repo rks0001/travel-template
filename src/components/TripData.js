@@ -22,7 +22,7 @@ function TripData(props) {
     {/* tt */}
     <div className="textdiv">
       <h4>{props.heading}</h4>
-      <div className="price">{props.statename}</div>
+      <div className="state">{props.statename}</div>
       <div className="price">{props.price}</div>
       <div className="days">{props.days}</div>
          

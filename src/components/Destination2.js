@@ -6,8 +6,8 @@ import PopDesCarousel from './PopDesCarousel'
 const Destination2 = () => {
   return (
     <div className='destination2'>
-   <h1>POPULAR DESTINATIONS</h1>
-      <p className='description'>Tours gives you experiences</p>
+   <h1>Popular Destinations</h1>
+      <p className='description'>EVERYONE'S FAVOURITE</p>
       <PopDesCarousel/>
       
       </div>

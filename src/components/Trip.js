@@ -40,6 +40,40 @@ function Trip() {
         days="6N/7D"
         knowmore="Know More>"
         />
+        
+      </div>
+      <div className="tripcard">
+        <TripData
+        image={Meghalaya1}
+        statename="MEGHALAYA"
+        heading="Explore Meghalaya"
+        url="/explore-meghalaya"
+        price="₹ 21,499"
+        text="lorem"
+        days="6N/7D"
+        knowmore="Know More>"
+        />
+         <TripData
+        image={Arunachal1}
+        statename="ARUNACHAL"
+        heading="Explore Tawang"
+        url="/"
+        price="₹ 21,499"
+        text="lorem"
+        days="6N/7D"
+        knowmore="Know More>"
+        />
+         <TripData
+        image={Assam1}
+        statename="ASSAM"
+        heading="Explore Kaziranga"
+        url="/"
+        price="₹ 21,499"
+        text="lorem"
+        days="6N/7D"
+        knowmore="Know More>"
+        />
+        
       </div>
     </div>
   );

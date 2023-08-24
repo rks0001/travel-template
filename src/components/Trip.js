@@ -22,7 +22,7 @@ function Trip() {
         />
          <TripData
         image={Arunachal1}
-        statename="ARUNACHAL PRADESH"
+        statename="ARUNACHAL"
         heading="Explore Tawang"
         url="/"
         price="₹ 21,499"

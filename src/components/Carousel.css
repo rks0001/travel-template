@@ -67,8 +67,8 @@
       .single1 video{
         
         padding: 0.1rem 0;
-      height: 320px;
-      width: 420px;
+      height: 50vh;
+      width: 30vw;
   }
       .slick-slide>div {
         transform: scale(0.9);
@@ -110,8 +110,8 @@
     .single1 video{
         
         padding: 0.1rem 0;
-      height: 320px;
-      width: 220px;
+      height: 60vh;
+      width: 80vw;
   }
     
     .slick-prev,

@@ -6,16 +6,12 @@ import aboutImg from '../assets/arunachal6.jpg'
 function Contact() {
   return (
     <div className='mainsection'>
-{/*     
-         <Hero
-      cName="hero-mid"
-      cName2="hero-text2"
-      heroImg={aboutImg}
-      title="CONTACT US"
+<div className="maincontact">
+  <div className='leftpanell'><img className="contactimg" alt="" src="https://media.giphy.com/media/kz6cm1kKle2MYkHtJF/giphy.gif"/></div>
+  <div className='rightpanell'><ContactForm/></div>
+
+</div>
       
-      btnClass="hide"
-      /> */}
-      <ContactForm/>
     </div>
   );
 }

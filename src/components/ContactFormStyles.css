@@ -3,11 +3,37 @@
     margin: 1rem 1rem 1rem 1rem;
     padding: 0 0 3rem 0;
     color: #1f1f1f;
-    background-color: #fff;
+    background-color: #f9f9f9;
     border-radius: 10px;
-    box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+    padding: 2rem 0;
+    
+  
 }
 
+.headtext{
+    font-size: 2.4rem;
+    font-weight: 600;
+    letter-spacing: 1px;
+}
+.maincontact{
+    display: flex;
+    flex-direction:row ;
+}
+.leftpanell{
+    display: block;
+    margin: auto;
+    transform: translateX(40%);
+    width: 30%;
+    overflow: hidden;
+}
+
+.contactimg{
+    height: 14rem;
+    width: 18rem;
+}
+.rightpanell{
+    width: 100%;
+}
 .form-container h1{
     padding-top: 2rem;
 }
@@ -51,9 +77,11 @@ form select {
 .form-container button{
 
     display: inline;
-    background-color: #050816;
+    background-color: #4158D0;
+    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    
     color: #fff;
-    padding: 10px ;
+    padding: 1rem 0 ;
     border: none;
 
 }
@@ -67,11 +95,37 @@ form select {
         margin: 1rem 1rem 1rem 1rem;
         padding: 0 0 3rem 0;
         color: #1f1f1f;
-        background-color: #fff;
+        background-color: #f9f9f9;
         border-radius: 10px;
-        box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+       
        
     }
+
+    .headtext{
+        font-size: 2rem;
+        font-weight: 600;
+        letter-spacing: 1px;
+    }
+    
+.maincontact{
+    display: flex;
+    flex-direction:column ;
+}
+.leftpanell{
+    display: block;
+    margin: auto;
+
+    width: 100%;
+    padding: 3rem 0 0 0;
+}
+
+.contactimg{
+    height: 10rem;
+    width: 16rem;
+}
+.rightpanell{
+    width: 100%;
+}
     .form-container h1{
         padding-top: 2rem;
     }
@@ -116,7 +170,9 @@ form select {
     .form-container button{
     
         display: inline;
-        background-color: #050816;
+        background-color: #4158D0;
+        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        
         color: #fff;
         padding: 10px ;
         border: none;

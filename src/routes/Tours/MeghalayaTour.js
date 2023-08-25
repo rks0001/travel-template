@@ -23,34 +23,48 @@ const MeghalayaTour = () => {
       buttonText="Book Your Adventure"
       url="/"
       btnClass="hide"
+      
       /> */}
+
+      
 <div className="layoutmain">
+
        {/* left panel */}
        <div className='leftpanel'>
        <div className='information'>
         
         {/* Trip Highlights */}
         <div className="div-container">
-          <h2 className='div-container-title'>Trip Highlights</h2>
-          <ul className='list1'>
-    <li>
-      <strong>Krem Chympe caves and falls:</strong><br/>
-      Krem Chympe is the 5th longest cave in India. Hidden in the forests of Jaintia Hills, Krem Chympe and Chympe Waterfalls are two such places that will have you completely amazed.
-    </li>
-    <li>
-      <strong>The Dawki river:</strong><br/>
-      A beautiful river with crystal clear waters, Dawki is one of the most picture-perfect spots you'll find in Meghalaya.
-    </li>
-    <li>
-      <strong>Walk on the root bridges:</strong><br/>
-      The moss and lichen which cover the trees turn the living bridges lush green. Around 30 meters long and 2400 feet high, the double-decker root bridge in Cherrapunji is a sight to behold in monsoon.
-    </li>
-    <li>
-      <strong>Land of waterfalls:</strong><br/>
-      We will be witnessing several beautiful and mesmerizing waterfalls.
-    </li>
-  </ul>
-  
+       <div className='tripimage'><div className='insidetext'>MEGHALAYA</div></div>
+       <h2 className='div-container-title'>Trip Highlights</h2>
+       <CollapseMenu
+  cName="trip-highlights"
+  title="MEGHALAYA"
+  text={
+    <div>
+      
+      <ul className='list1'>
+        <li>
+          <strong>Krem Chympe caves and falls:</strong><br/>
+          Krem Chympe is the 5th longest cave in India. Hidden in the forests of Jaintia Hills, Krem Chympe and Chympe Waterfalls are two such places that will have you completely amazed.
+        </li>
+        <li>
+          <strong>The Dawki river:</strong><br/>
+          A beautiful river with crystal clear waters, Dawki is one of the most picture-perfect spots you'll find in Meghalaya.
+        </li>
+        <li>
+          <strong>Walk on the root bridges:</strong><br/>
+          The moss and lichen which cover the trees turn the living bridges lush green. Around 30 meters long and 2400 feet high, the double-decker root bridge in Cherrapunji is a sight to behold in monsoon.
+        </li>
+        <li>
+          <strong>Land of waterfalls:</strong><br/>
+          We will be witnessing several beautiful and mesmerizing waterfalls.
+        </li>
+      </ul>
+    </div>
+  }
+/>
+
           
         </div>
   

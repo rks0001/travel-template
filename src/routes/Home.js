@@ -5,6 +5,9 @@ import img1 from '../assets/mountain2.jpg'
 import { TabTitle } from "../utils/GeneralFunctions";
 import CenterMode from '../components/Carousel';
 import Destination2 from '../components/Destination2';
+import Services from '../components/Services';
+
+
 
 
 
@@ -22,14 +25,12 @@ function Home() {
       url="/contact"
       btnClass="show anglebg"
       />
-      {/* <Destination/> */} 
       <Destination2/>
       <Trip/>
       <CenterMode/>
-      {/* <PhotoGallery/> */}
-      {/* <CustomerExperiences
-      videoUrls={videoUrls}
-      /> */}
+   
+      
+      
     </>
   );
 }

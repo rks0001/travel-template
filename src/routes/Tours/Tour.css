@@ -4,8 +4,27 @@
     display: flex;
     flex-direction: row;
     padding: 5rem 0;
+    overflow: hidden;
    }
 
+.tripimage{
+    height: 30vh;
+    background: url(../../assets/arunachal1.jpg);
+    
+    background-size: 22rem;
+    object-fit:fill ;
+   background-repeat:no-repeat;
+   width: 100%;
+   
+   text-align: center;
+  
+   }
+   .insidetext{
+    color: #f9f9f9;
+    font-size: 2rem;
+   
+   transform: translateY(100%);
+   }
    .leftpanel{
 width: 60%;
    }
@@ -17,8 +36,8 @@ width: 60%;
    }
  
 .information{
-    background-color: #fff;
-   box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
+    /* background-color: #fff;
+   box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25); */
     padding: 20px;
     margin: 20px ;
     border-radius: 10px;
@@ -78,14 +97,28 @@ width: 60%;
         display: flex;
         flex-direction: column;
        }
+
+       .tripimage{
+        height: 20vh;
+        background: url(../../assets/arunachal1.jpg);
+        background-size: 22rem;
+        background-repeat: no-repeat;
+       
+      
+       }
+       .insidetext{
+        color: #f9f9f9;
+        font-size: 2rem;
+       text-align: center;
+       transform: translateY(100%);
+       }
     
        .leftpanel{
     width: 100%;
        }
     .information{
-        background-color: #fff;
-       box-shadow: 0 5px 15px 0 rgba(0,0,0,0.25);
-        padding: 1rem;
+        
+        padding: 4rem 0;
         margin: 20px ;
         border-radius: 10px;
     }

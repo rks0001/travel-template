@@ -21,7 +21,7 @@ function Trip() {
         price="₹ 21,499"
         text="lorem"
         days="6N/7D"
-        knowmore="Know More>"
+        knowmore="Know More"
         />
          <TripData
         image={Arunachal1}
@@ -35,7 +35,7 @@ function Trip() {
         price="₹ 21,499"
         text="lorem"
         days="6N/7D"
-        knowmore="Know More>"
+        knowmore="Know More"
         />
         
         
@@ -53,7 +53,7 @@ function Trip() {
         price="₹ 21,499"
         text="lorem"
         days="6N/7D"
-        knowmore="Know More>"
+        knowmore="Know More"
         />
          <TripData
         image={Arunachal1}
@@ -67,7 +67,7 @@ function Trip() {
         price="₹ 21,499"
         text="lorem"
         days="6N/7D"
-        knowmore="Know More>"
+        knowmore="Know More"
         />
         
         

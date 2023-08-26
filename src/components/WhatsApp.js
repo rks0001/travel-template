@@ -10,7 +10,7 @@ const myStyles = {
 
     const linkStyle = {
       textDecoration:"none",
-      color:"#312E1B",
+      color:"#5a5a5a",
       fontWeight:"600"
       } 
 

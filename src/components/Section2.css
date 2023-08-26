@@ -31,6 +31,7 @@
         border: none;
         color: #f5f4ed;
         font-size: 1.1rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
     .right2{
         display: block;
@@ -45,9 +46,8 @@
     .sectiontwomain{
         min-height: 80vh;
         background-color: #f5f4ed;
-        display: flex;
-        flex-direction: column;
-        border-radius: 3rem 3rem 0 0;
+        
+        border-radius: 2.6rem 2.6rem 0 0;
         margin-top: -4rem;
         text-align: left;
     }
@@ -57,20 +57,21 @@
     .sec2text{
         font-size: 2.6rem;
         line-height: 1;
-        padding: 2rem 3rem 0 3rem;
+        padding: 2rem 2rem 0 2rem;
         
     }
     .sec2text2{
         font-size: 1rem;
         line-height: 1;
-        padding: 0.2rem 4rem 0 3rem ;
+        padding: 0.2rem 4rem 0 2rem ;
     }
     .sec2btn{
         background-color: #39A77F;
-        padding: 0.4rem 1.4rem;
+        padding: 0.5rem 2rem;
         border: none;
         color: #f5f4ed;
-        margin: 0.6rem 3rem;
+        margin: 0.6rem 2rem;
+        box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         
     }
     .right2{

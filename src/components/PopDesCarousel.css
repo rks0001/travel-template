@@ -7,19 +7,10 @@
     position: relative;
 text-align: left;
 
-/* 
-background-color: #9599E2;
-background-image: linear-gradient(225deg, #9599E2 1%, #4b95c2 100%); */
 overflow: hidden;
-
-
-
-
-
-
 border-radius: 0.8rem;
-    
-    
+padding: 0 1rem;
+  
   }
 .lay1{
   display: flex;
@@ -41,10 +32,8 @@ border-radius: 0.8rem;
     font-size: 1.4rem;
     font-weight: 400;
     
-color: #ffffff;
-
-background-color: #FF3CAC;
-background-image: linear-gradient(200deg, #FF3CAC 0%, #784BA0 30%, #2B86C5 100%);
+color: #1f1f1f;
+background-color: #f9f9f9;
     transform: translateY(-50%);
     transition: .2s ease-in-out;
     border-radius: 0 0 0.8rem 0.8rem  ;
@@ -59,7 +48,7 @@ background-image: linear-gradient(200deg, #FF3CAC 0%, #784BA0 30%, #2B86C5 100%)
   }
  
   .single img{
-   height: 50vh;
+   height: 60vh;
    width: 100%;
  overflow: hidden;
    border-radius: 0.8rem 0.8rem 0 0 ;
@@ -82,12 +71,12 @@ background-image: linear-gradient(200deg, #FF3CAC 0%, #784BA0 30%, #2B86C5 100%)
         top: 50%;
         transform: translateY(-50%);
         cursor: pointer;
-        font-size: 24px;
+        font-size: 1.4rem;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #050816; /* Customize the background color */
-        border: 1px solid #050816; /* Customize the border */
-        border-radius: 8px;
-        padding: 1px 12px;
+        background-color: #F0582b; /* Customize the background color */
+        border: 1px solid #F0582b; /* Customize the border */
+        border-radius: 50%;
+        padding: 0.6rem 1.2rem;
         /* z-index: 1; */
       }
       
@@ -138,13 +127,13 @@ background-image: linear-gradient(200deg, #FF3CAC 0%, #784BA0 30%, #2B86C5 100%)
 
     .single{
       /* position: relative; */
-      padding: 0 0.8rem;
+      padding: 0 0.3rem;
   text-align: center;
   color: white;
   display: flex;
   flex-direction: column;
-  
-border-radius: 0.8rem;
+  box-shadow: 0 3px 1px 0 rgba(0,0,0,0.1); 
+border-radius: 0.2rem;
       
     }
 
@@ -175,21 +164,21 @@ border-radius: 0.8rem;
       bottom: 30px; */
       text-align: left;
       margin-top: -2px;
-      padding: 1rem 1rem;
+      padding: 0.7rem 1rem;
       font-size: 1.2rem;
       font-weight: 500;
-      letter-spacing: 1px;
-  color: #f9f9f9;
-  background-color: #FF3CAC;
-  background-image: linear-gradient(200deg, #FF3CAC 0%, #784BA0 30%, #2B86C5 100%);
+    
+  color: #1f1f1f;
+  background-color: #f9f9f9;
+
 border-radius:  0 0 0.8rem 0.8rem;
       
     }
     .single img{
      height: 16rem;
      width: 100%;
-     box-shadow: 0 2px 8px 0 rgba(0,0,0,0.25);
-     border-radius: 1rem 1rem 0 0 ;
+     
+     border-radius: 0.8rem 0.8rem ;
     
    
    }
@@ -208,10 +197,10 @@ border-radius:  0 0 0.8rem 0.8rem;
         cursor: pointer;
         font-size: 16px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #050816; /* Customize the background color */
-        border: 1px solid #050816; /* Customize the border */
-        border-radius: 6px;
-        padding: 1px 8px;
+        background-color: #F0582b; /* Customize the background color */
+        border: 1px solid #F0582b; /* Customize the border */
+        border-radius: 50%;
+        padding: 6px 12px;
         /* z-index: 1;  */
       }
       

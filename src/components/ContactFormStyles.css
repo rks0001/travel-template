@@ -94,7 +94,7 @@ form select {
         
         margin: 1rem 1rem 1rem 1rem;
         padding: 0 0 3rem 0;
-        color: #1f1f1f;
+        
         background-color: #f5f4ed;
         border-radius: 10px;
        
@@ -102,8 +102,9 @@ form select {
     }
 
     .headtext{
-        font-size: 2rem;
-        font-weight: 600;
+        font-size: 2.5rem;
+        color: #F0582b;
+        font-weight: 500;
         letter-spacing: 1px;
     }
     
@@ -170,8 +171,7 @@ form select {
     .form-container button{
     
         display: inline;
-        background-color: #4158D0;
-        background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+        background-color: #F0582b;
         
         color: #fff;
         padding: 10px ;

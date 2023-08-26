@@ -8,6 +8,12 @@ const myStyles = {
     right:"20px",
     } 
 
+    const linkStyle = {
+      textDecoration:"none",
+      color:"#312E1B",
+      fontWeight:"600"
+      } 
+
     const btnStyles = {
         width:"50px",
         zIndex:100,
@@ -19,7 +25,7 @@ const WhatsApp = () => {
    
   return (
     <div style={myStyles}>
-        <a href="https://wa.me/919866463680" target='_blank'><img alt="whatsapp" src={whatsapp} style={btnStyles}/></a>
+        <a style={linkStyle} href="https://wa.me/919866463680" target='_blank'><img alt="whatsapp" src={whatsapp} style={btnStyles}/><br/>Contact Us</a>
     </div>
   )
 }

@@ -6,8 +6,8 @@ const Footer = () => {
     <div className="footer">
       <div className="top">
         <div>
-          <h1 className="brandname"><img  className="footer-logo" alt="logo" src={logo1}/></h1>
-          
+          <h1 className="brandname">ithvaraa</h1>
+          {/* <img  className="footer-logo" alt="logo" src={logo1}/> */}
         </div>
         <div>
           <a href="/">

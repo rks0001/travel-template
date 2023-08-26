@@ -25,19 +25,22 @@ function TripData(props) {
    
       <div className="title">{props.heading}</div>
       <div className="state">{props.statename}</div>
-      {/* PC */}
+
+      <div className="story">{props.story}</div>
+      <div className="knowmore">{props.knowmore}</div>
+      {/* PC
       <div className="pricecol">
         <div className="leftcol"> 
-        {/* L */}
+        L
         <div className="price">{props.price}</div>
       <div className="pricecut">{props.pricecut}</div>
       <div className="days">{props.days}</div>
       </div>
-      {/* R */}
+      R
       <div className="rightcol">
       <div className="knowmore">{props.knowmore}</div>
       </div>
-      </div>
+      </div> */}
      
          
    

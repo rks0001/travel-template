@@ -1,7 +1,9 @@
 
 
 @media screen and (min-width:601px){
-  
+  .popdesmain {
+    padding: 1rem 4rem ;
+        }
    
   .single{
     position: relative;
@@ -10,6 +12,7 @@ text-align: left;
 overflow: hidden;
 border-radius: 0.8rem;
 padding: 0 1rem;
+background-color: #fff;
   
   }
 .lay1{
@@ -33,7 +36,7 @@ padding: 0 1rem;
     font-weight: 400;
     
 color: #1f1f1f;
-background-color: #f9f9f9;
+background-color: #fff;
     transform: translateY(-50%);
     transition: .2s ease-in-out;
     border-radius: 0 0 0.8rem 0.8rem  ;
@@ -53,7 +56,7 @@ background-color: #f9f9f9;
  overflow: hidden;
    border-radius: 0.8rem 0.8rem 0 0 ;
 
-   /* padding: 1rem; */
+   padding: 1.2rem 0.8rem;
   
  
  }
@@ -73,8 +76,8 @@ background-color: #f9f9f9;
         cursor: pointer;
         font-size: 1.4rem;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #F0582b; /* Customize the background color */
-        border: 1px solid #F0582b; /* Customize the border */
+        background-color: #39A77F; /* Customize the background color */
+        border: 1px solid #39A77F; /* Customize the border */
         border-radius: 50%;
         padding: 0.6rem 1.2rem;
         /* z-index: 1; */
@@ -117,7 +120,7 @@ background-color: #f9f9f9;
 /* SMALL SCREENS  */
   @media screen and (max-width:600px){
     .popdesmain {
-      padding: 0.4rem 0 ;
+      padding: 0.4rem 3rem ;
           }
     .mainslide{
         display: block;
@@ -127,19 +130,20 @@ background-color: #f9f9f9;
 
     .single{
       /* position: relative; */
-      padding: 0 0.3rem;
+      padding: 0 0.2rem;
   text-align: center;
   color: white;
   display: flex;
   flex-direction: column;
-  box-shadow: 0 3px 1px 0 rgba(0,0,0,0.1); 
+  /* box-shadow: 0 3px 1px 0 rgba(0,0,0,0.1);  */
 border-radius: 0.2rem;
+      background-color: #fff;
       
     }
 
     .single a{
       text-decoration: none;
-      color: #f9f9f9;
+      color: #fff;
      
     }
     .single .popdestext{
@@ -169,7 +173,7 @@ border-radius: 0.2rem;
       font-weight: 500;
     
   color: #1f1f1f;
-  background-color: #f9f9f9;
+  background-color: #fff;
 
 border-radius:  0 0 0.8rem 0.8rem;
       
@@ -177,8 +181,8 @@ border-radius:  0 0 0.8rem 0.8rem;
     .single img{
      height: 16rem;
      width: 100%;
-     
-     border-radius: 0.8rem 0.8rem ;
+     padding: 1rem 1rem;
+     border-radius: 1rem 1rem ;
     
    
    }
@@ -197,16 +201,16 @@ border-radius:  0 0 0.8rem 0.8rem;
         cursor: pointer;
         font-size: 16px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #F0582b; /* Customize the background color */
-        border: 1px solid #F0582b; /* Customize the border */
-        border-radius: 50%;
+        background-color: #39A77F; /* Customize the background color */
+        border: 1px solid #39A77F; /* Customize the border */
+        border-radius: 40%;
         padding: 6px 12px;
         /* z-index: 1;  */
       }
       
       .popdesmain .custom-prev {
         left: 30px;
-        top: -20px;
+        /* top: -20px; */
         color: transparent; /* Customize the arrow color */
         background-color: transparent; /* Customize the background color */
         border:none;
@@ -214,7 +218,7 @@ border-radius:  0 0 0.8rem 0.8rem;
       
       .popdesmain .custom-next {
         right: 2px;
-        top: -32px;
+        /* top: -32px; */
       }
 
       .slick-slide>div {

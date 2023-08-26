@@ -1,19 +1,17 @@
 .mainservices{
-    background-color: #f9f9f9;
-    border-radius: 0 50px ;
+    background-color: #f5f4ed;
+  
     padding: 4rem ;
     
 
 }
 .headtext2{
-font-size: 2.6rem;
-font-weight: 900;
-letter-spacing: 2px;
-padding: 0 0 2rem 0;
+    font-size: 3.8rem;
+    padding: 1rem 0;
+    line-height: 1;
 }
 .singleservice{
-    background-color: #4158D0;
-    background-image: linear-gradient(43deg, #4158D0 0%, #C850C0 46%, #FFCC70 100%);
+    background-color: #fff;
     padding: 1rem;
    
     border-radius: 2rem;
@@ -33,12 +31,18 @@ justify-content: space-around;
 
 
 @media screen and (max-width:850px){
+    .mainservices{
+        background-color: #f5f4ed;
+       
+        padding: 1rem 4rem 0 4rem;
+        
+    
+    }
     .headtext2{
-        font-size: 2.2rem;
-        font-weight: 700;
-        letter-spacing: -1px;
-        padding: 0 0 2rem 0;
-        }
+        font-size: 2.8rem;
+        padding: 1rem 0;
+        line-height: 1;
+    }
     .services{
         display: flex;
         flex-direction: column;

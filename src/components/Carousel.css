@@ -4,19 +4,14 @@
 
   .carhead{
 
-    font-size: 3rem;
-    color: #050816;
-    font-weight: 800;
-    letter-spacing: 1px;
-    text-align: center;
+    font-size: 3.4rem;
+    padding: 1rem 0;
     line-height: 1;
-    padding: 0 3rem;
-    margin: 0 0 3.4rem 0;
 
 
   }
   .gallerymain{
-    background-color: #f9f9f9;
+    background-color: #f5f4ed;
   
     padding: 2rem 0;
   }
@@ -43,11 +38,11 @@
         transform: translateY(-50%);
         cursor: pointer;
         font-size: 24px;
-        
-        background-color: #050816; /* Customize the background color */
-        border: 1px solid #050816; /* Customize the border */
-        border-radius: 8px;
-        padding: 1px 12px;
+        font-weight: 500;
+        background-color: #F0582b; /* Customize the background color */
+        border: 1px solid #F0582b; /* Customize the border */
+        border-radius: 50%;
+        padding: 4px 16px;
         /* z-index: 1;  */
       }
       
@@ -90,16 +85,16 @@
 /* SMALL SCREENS  */
   @media screen and (max-width:600px){
 .carhead{
-  font-size: 1.9rem;
-  font-weight: 700;
-  letter-spacing: -1px;
+
+  font-size: 2.6rem;
+  padding: 1rem 0;
   line-height: 1;
   text-align: left;
-  padding: 0 2rem 0 4rem;
-  margin: 0 0 0.8rem 0;
+  padding: 0 3rem 1rem 3rem;
+
 }
     .gallerymain{
-      background-color: #f9f9f9;
+      background-color: #f5f4ed;
       padding: 2rem 0 1rem 0 ;
     }
     .mainslide{
@@ -127,8 +122,8 @@
         cursor: pointer;
         font-size: 16px;
         color: #ffffff; /* Customize the arrow color */
-        background-color: #050816; /* Customize the background color */
-        border: 1px solid #050816; /* Customize the border */
+        background-color: #F0582b; /* Customize the background color */
+        border: 1px solid #F0582b; /* Customize the border */
         border-radius: 6px;
         padding: 1px 8px;
         /* z-index: 1; */

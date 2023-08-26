@@ -1,11 +1,11 @@
 .footer{
     padding: 4rem 6rem;
-    background:#050A0F;
-    color: #fff;
+    background:#312E1B;
+    color: #f5f4ed;
 
 }
 .brandname{
-    color: #050816;
+    color: #f5f4ed;
     font-weight: 600;
     letter-spacing: -1px;
 }
@@ -18,13 +18,13 @@
 }
 
 .top i{
-    color: #fff;
+    color: #f5f4ed;
     font-size: 2rem;
     margin-left: 1rem;
 }
 
 .top i:hover{
-    color: #050816;
+    color: #f5f4ed;
 }
 
 .bottom{
@@ -49,7 +49,7 @@
 
 .bottom a{
     text-decoration: none;
-    color:#fafafa;
+    color:#f5f4ed;
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
 }
@@ -96,7 +96,7 @@ height: 70px;
 
 .bottom a{
     text-decoration: none;
-    color:#fafafa;
+    color:#f5f4ed;
     padding-bottom: 0.4rem;
     font-size: 1.1rem;
 }

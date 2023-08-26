@@ -2,11 +2,10 @@
 
 @media screen and (min-width:851px){
     .sectiontwomain{
-        min-height: 80vh;
+        min-height: 60vh;
         background-color: #f5f4ed;
-        display: flex;
-        flex-direction: row;
-        padding: 6rem 0;
+        
+        padding: 6rem 0 0 0;
         border-radius: 6rem 6rem 0 0;
         margin-top: -10rem;
        
@@ -15,7 +14,7 @@
     .left2{
         display: block;
        transform: translateX(20%);
-        width: 50%;
+        width: 40%;
         text-align: left;
     }
     
@@ -50,34 +49,33 @@
         flex-direction: column;
         border-radius: 3rem 3rem 0 0;
         margin-top: -4rem;
-    }
-    
-    .left2{
-        display: block;
-        padding: 2rem 4rem;
-        width: 100%;
         text-align: left;
     }
     
+    
+    
     .sec2text{
-        font-size: 3rem;
+        font-size: 2.6rem;
         line-height: 1;
-        padding: 1rem 0 0.3rem 0;
+        padding: 2rem 3rem 0 3rem;
+        
     }
     .sec2text2{
-        font-size: 1.1rem;
+        font-size: 1rem;
         line-height: 1;
+        padding: 0.2rem 4rem 0 3rem ;
     }
     .sec2btn{
         background-color: #39A77F;
         padding: 0.4rem 1.4rem;
         border: none;
         color: #f5f4ed;
-        margin: 0.6rem 0;
+        margin: 0.6rem 3rem;
+        
     }
     .right2{
         display: block;
-        padding: 2rem 4rem;
+        padding: 1rem 3rem;
         margin-left: auto;
         margin-right: auto;
         width: 100%;

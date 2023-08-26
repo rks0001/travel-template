@@ -7,7 +7,7 @@
     font-size: 3.4rem;
     padding: 1rem 0;
     line-height: 1;
-
+    color: #F0582b;
 
   }
   .gallerymain{
@@ -87,10 +87,11 @@
 .carhead{
 
   font-size: 2.6rem;
-  padding: 1rem 0;
+ 
   line-height: 1;
   text-align: left;
   padding: 0 3rem 1rem 3rem;
+  color: #F0582b;
 
 }
     .gallerymain{
@@ -139,8 +140,8 @@
       }
       
       .gallerymain .custom-next {
-        right: -6px;
-        top: 14px;
+        right: -2px;
+        top: 12px;
       }
 
       .slick-slide>div {

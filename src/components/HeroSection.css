@@ -13,7 +13,7 @@
 
 .heromaindiv{
 
-   padding: 35vh 0 ;
+   padding: 30vh 0 ;
 }
 
 .ith1{
@@ -33,13 +33,13 @@
 }
 
 .herotext1{
-    font-size: 5rem;
+    font-size: 12vh;
     font-weight: 500;
     line-height: 1;
 
 }
 .herotext2{
-    font-size: 1.2rem;
+    font-size: 5vh;
     font-weight: 600;
     line-height: 1;
     padding: 0.2rem 0 ;
@@ -50,11 +50,11 @@
 .herobtn{
     background-color: #F0582b;
     border:none;
-padding: 1rem;
+    padding: 3vh 5vw;
     color: #f5f4ed;
     font-weight: 500;
     margin: 0.4rem 0 ;
-    font-size: 1rem;
+    font-size: 2vh;
 }
 }
 

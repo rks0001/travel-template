@@ -4,7 +4,7 @@ import "./ContactFormStyles.css";
 function ContactForm() {
   return (
     <div className="form-container">
-      <div className='headtext'>CONTACT US</div>
+      <div className='headtext'>Contact Us</div>
       <form
         action="https://formspree.io/f/xrgwqpwq"
         method="POST"

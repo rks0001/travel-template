@@ -1,11 +1,9 @@
 import React from 'react'
-import Hero from '../../components/Hero'
-import img1 from '../../assets/meghalaya2.jpg'
 import './Tour.css'
 import { TabTitle } from '../../utils/GeneralFunctions'
 import Responsive from '../../components/Carousel'
 import Trip from '../../components/Trip'
-import Contact from '../Contact'
+
 import ContactForm from '../../components/ContactForm'
 import CollapseMenu from '../../components/Collapse'
 
@@ -14,19 +12,6 @@ const MeghalayaTour = () => {
   return (
     <>
 
-   {/* <Hero
-      cName="hero-mid"
-      cName2="hero-text2"
-      heroImg={img1}
-      title="EXPLORE MEGHALAYA"
-      text="6N/7D"
-      buttonText="Book Your Adventure"
-      url="/"
-      btnClass="hide"
-      
-      /> */}
-
-      
 <div className="layoutmain">
 
        {/* left panel */}

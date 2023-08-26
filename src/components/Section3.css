@@ -4,8 +4,7 @@
     .sectionthreemain{
         min-height: 80vh;
         background-color: #f5f4ed;
-        display: flex;
-        flex-direction: row;
+   
         padding: 1rem 0;
        
        
@@ -16,6 +15,7 @@
         font-size: 3.8rem;
         padding: 1rem 0;
         line-height: 1;
+        color: #F0582b;
         
     }
     .sec3text2{
@@ -25,7 +25,8 @@
     }
     .sec3btn{
         background-color: #5B9DC2;
-        padding: 0.6rem 1.6rem;
+        padding: 2vh 6vw;
+     
         border: none;
         color: #f5f4ed;
         font-size: 1.1rem;
@@ -66,6 +67,7 @@
         font-size: 2.5rem;
         line-height: 1;
         padding: 1rem 2rem 0.3rem 2rem;
+        color: #F0582b;
     }
     .sec3text2{
         font-size: 1rem;

@@ -21,13 +21,14 @@
     .sec2text{
         font-size: 4rem;
         line-height: 1;
+        color: #F0582b;
     }
     .sec2text2{
         font-size: 1.4rem;
     }
     .sec2btn{
         background-color: #39A77F;
-        padding: 0.6rem 1.6rem;
+        padding: 2vh 6vw;
         border: none;
         color: #f5f4ed;
         font-size: 1.1rem;
@@ -46,7 +47,7 @@
     .sectiontwomain{
         min-height: 80vh;
         background-color: #f5f4ed;
-        
+        padding: 0 0 2rem 0;
         border-radius: 2.6rem 2.6rem 0 0;
         margin-top: -4rem;
         text-align: left;
@@ -58,6 +59,7 @@
         font-size: 2.6rem;
         line-height: 1;
         padding: 2rem 2rem 0 2rem;
+        color: #F0582b;
         
     }
     .sec2text2{

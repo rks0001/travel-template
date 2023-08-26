@@ -9,24 +9,28 @@
     font-size: 3.8rem;
     padding: 1rem 0;
     line-height: 1;
-}
-.singleservice{
-    background-color: #fff;
-    padding: 1rem;
-   
-    border-radius: 2rem;
+    color: #F0582b;
 }
 .services{
     display: flex;
- 
+ padding: 2rem 0 0 0;
 justify-content: space-around;
 }
 
-.services div{
-   font-size: 1rem;
-   font-weight: 500;
-   padding: 20px;
-   margin: 1rem 0;
+
+
+.iconStyle{
+    color:#312E1B ;
+    font-size: 4rem;
+    padding: 0.2rem;
+    margin: 1rem 0 0 0;
+}
+
+.textStyle{
+    color:#312E1B ;
+    font-size: 1.3rem;
+    padding: 1rem;
+    margin: 1rem 0 0 0;
 }
 
 
@@ -34,18 +38,46 @@ justify-content: space-around;
     .mainservices{
         background-color: #f5f4ed;
        
-        padding: 1rem 4rem 0 4rem;
-        
-    
+        padding: 1rem 2rem 0 2rem;
+       
     }
+   
+     
+
     .headtext2{
         font-size: 2.6rem;
         padding: 1rem 0;
         line-height: 1;
+        color: #F0582b;
     }
     .services{
         display: flex;
         flex-direction: column;
     justify-content: space-around;
+    
+    }
+
+    .singleservice1{
+        background-color: #f5f4ed;
+    
+       
+        border-radius: 2rem;
+    }
+
+    .iconStyle{
+        color:#312E1B ;
+        font-size: 4rem;
+        padding: 0.2rem;
+        /* margin: 1rem 0 0 0; */
+    }
+    
+    .textStyle{
+        color: #312E1B; 
+        font-size: 1rem;
+        /* padding: 1rem; */
+        margin: 0.1rem 0 0 0;
+        
     }
 }
+
+

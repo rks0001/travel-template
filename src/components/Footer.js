@@ -1,13 +1,13 @@
 import "./FooterStyles.css";
 import React from 'react';
-import logo1 from "../assets/ithvaraa.jpg"
+import logo1 from "../assets/ithvaraa-logo.png"
 const Footer = () => {
   return (
     <div className="footer">
       <div className="top">
         <div>
-          <h1 className="brandname">ithvaraa</h1>
-          {/* <img  className="footer-logo" alt="logo" src={logo1}/> */}
+          <h1 className="brandname">  <img  className="footer-logo" alt="logo" src={logo1}/></h1>
+        
         </div>
         <div>
           <a href="/">

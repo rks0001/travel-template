@@ -40,7 +40,7 @@ const DesDetails = () => {
     </div>
             </div>
             {/* TABS */}
-            <Tabs style={{margin:"1rem 0"}} onSelect={(index, label) => console.log(label + ' selected')}>
+            <Tabs style={{margin:"1rem 0", minHeight:"40vh"}} onSelect={(index, label) => console.log(label + ' selected')}>
             <Tab label="Overview">
             <div className='desoverview'>
                 <div className='desoverviewhead'>Overview</div>

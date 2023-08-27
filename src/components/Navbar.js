@@ -45,8 +45,8 @@ const Navbar = () => {
   return (
     <div>
  <div className="NavbarItems" style={{ background: navbarBackground }}>
-      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/">ithvaraa </Link></h1>
-      {/* <img className="logo-img" alt="logo" src={logo1} /> */}
+      <h1 className="navbar-logo"> <Link onClick={scrollToTop} to="/">      <img className="logo-img" alt="logo" src={logo1} /> </Link></h1>
+
       <div className="menu-icons" onClick={handleClick}>
         <i className={clicked ? "fas fa-times" : "fas fa-bars"}></i>
       </div>

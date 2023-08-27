@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.css": "/static/css/main.b5ef9825.css",
+    "main.js": "/static/js/main.a3c6cb66.js",
+    "static/media/review2.mp4": "/static/media/review2.fea1c6a1ed22c5c81814.mp4",
+    "static/media/review1.mp4": "/static/media/review1.1b8ed71610fa466bb86c.mp4",
+    "static/media/mountain3.jpg": "/static/media/mountain3.0ed18071fc0309f3c0fd.jpg",
+    "static/media/arunachal3.jpg": "/static/media/arunachal3.25213a0218c94fe1b911.jpg",
+    "static/media/meghalaya5.jpg": "/static/media/meghalaya5.4a8fe2504b7ccae21288.jpg",
+    "static/media/arunachal1.jpg": "/static/media/arunachal1.eb29ad332c287e38ef1f.jpg",
+    "static/media/arunachal4.jpg": "/static/media/arunachal4.d9eaf97f8df1481a4a26.jpg",
+    "static/media/arunachal5.jpg": "/static/media/arunachal5.27d5e40bce1c9c822553.jpg",
+    "static/media/arunachal2.jpg": "/static/media/arunachal2.15b7ae0a8ff2c549469d.jpg",
+    "static/media/meghalaya2.jpg": "/static/media/meghalaya2.9b379cb8ca48916ce526.jpg",
+    "static/media/assam1.jpg": "/static/media/assam1.5eb806cdc91f7daaf900.jpg",
+    "static/media/ithvaraa.jpg": "/static/media/ithvaraa.52f65a8d95abd15c3ef4.jpg",
+    "static/media/whatsapp-logo.png": "/static/media/whatsapp-logo.723d3ac343472f093570.png",
+    "static/media/ithvaraa-logo.png": "/static/media/ithvaraa-logo.afe595d9ce872a088d54.png",
+    "static/media/slick.svg": "/static/media/slick.2630a3e3eab21c607e21.svg",
+    "static/media/slick.eot": "/static/media/slick.a4e97f5a2a64f0ab1323.eot",
+    "static/media/slick.ttf": "/static/media/slick.c94f7671dcc99dce43e2.ttf",
+    "static/media/slick.woff": "/static/media/slick.295183786cd8a1389865.woff",
+    "index.html": "/index.html",
+    "main.b5ef9825.css.map": "/static/css/main.b5ef9825.css.map",
+    "main.a3c6cb66.js.map": "/static/js/main.a3c6cb66.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.b5ef9825.css",
+    "static/js/main.a3c6cb66.js"
+  ]
+}

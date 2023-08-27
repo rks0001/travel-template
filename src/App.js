@@ -8,8 +8,9 @@ import Contact from "./routes/Contact";
 import Footer from "./components/Footer";
 
 import React from 'react';
-import MeghalayaTour from "./routes/Tours/MeghalayaTour";
+// import MeghalayaTour from "./routes/Tours/MeghalayaTour";
 import WhatsApp from "./components/WhatsApp";
+import DesDetails from "./routes/Tours/DesDetails";
 
 
 export default function App() {
@@ -22,7 +23,7 @@ export default function App() {
       <Route path="/about" element={<About/>}/>
       <Route path="/service" element={<Service/>}/>
       <Route path="/contact" element={<Contact/>}/>
-      <Route path="/explore-meghalaya" element={<MeghalayaTour/>}/>
+      <Route path="/explore-bali" element={<DesDetails/>}/>
       </Routes>
       <WhatsApp/>
       <Footer/>

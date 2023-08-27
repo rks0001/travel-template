@@ -5,8 +5,8 @@
         background: url(../assets/mountain3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: #f5f4ed;
-        color: #f5f4ed;
+        background-color: #F9F9FC;
+        color: #F9F9FC;
         text-align: center;
     }
     
@@ -51,7 +51,7 @@
     background-color: #F0582b;
     border:none;
     padding: 3vh 5vw;
-    color: #f5f4ed;
+    color: #F9F9FC;
     font-weight: 500;
     margin: 0.4rem 0 ;
     font-size: 2vh;
@@ -64,8 +64,8 @@
         background: url(../assets/mountain3.jpg);
         background-size: cover;
         background-repeat: no-repeat;
-        background-color: #f5f4ed;
-        color: #f5f4ed;
+        background-color: #F9F9FC;
+        color: #F9F9FC;
         text-align: center;
         display: flex;
         flex-direction: column;
@@ -103,7 +103,7 @@
         background-color: #F0582b;
         border:none;
         padding: 0.6rem 1rem ;
-        color: #f5f4ed;
+        color: #F9F9FC;
         font-weight: 500;
         margin: 0.4rem 0 ;
         font-size: 1rem;

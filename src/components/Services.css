@@ -1,5 +1,5 @@
 .mainservices{
-    background-color: #f5f4ed;
+    background-color: #F9F9FC;
   
     padding: 4rem ;
     
@@ -41,7 +41,7 @@ justify-content: space-around;
 
 @media screen and (max-width:850px){
     .mainservices{
-        background-color: #f5f4ed;
+        background-color: #F9F9FC;
        
         padding: 1rem 2rem 0 2rem;
         

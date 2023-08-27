@@ -27,7 +27,7 @@ const Navbar = () => {
 
   const handleScroll = () => {
     if (window.scrollY > 10) {
-      setNavbarBackground("#f5f4ed");
+      setNavbarBackground("#F9F9FC");
       setNavlinkColor("#1f1f1f")
     } else {
       setNavbarBackground("transparent");

@@ -1,0 +1,227 @@
+@media screen and (min-width:851px){
+    .mainlay1{
+
+        display: flex;
+        flex-direction: row;
+    }
+
+    .leftlay1{
+        width: 60%;
+        padding: 1rem 2rem ;
+    }
+    .rightlay1{
+        width: 40%;
+        padding:-0  2rem ;
+    }
+
+    .deshead1{
+        font-size: 2.5rem;
+        text-align: left;
+        padding: 1rem 0;
+        color: #F0582b;
+    }
+
+    .desicons1{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+
+    .desoverview{
+        text-align: left;
+    }
+    .desoverviewhead{
+        font-size: 1.7rem;
+        color: #F0582b;
+        padding: 1rem 0 0 0 ;
+        
+    }
+    .desoverviewdesp{
+        font-size: 0.9rem;
+    }
+    /* DAYS COMPONENT */
+.daymain{
+    text-align: left;
+    padding: 1rem 0 0 0 ;
+   
+}
+
+.sitem{
+    padding: 0.2rem 2rem;
+}
+    .dayheadmain{
+        text-align: left;
+        font-size: 1.1rem;
+     
+        font-weight: 500;
+        display: flex;
+        flex-direction: row;
+
+    }
+.daytext{
+    padding: 0.2rem 0.1rem;
+}
+    .daycircle{
+        background-color: #F0582b;
+        padding: 0.2rem 0.4rem;
+        color: #f9f9f9;
+        border-radius: 50%;
+        margin: 0 0.4rem 0 0;
+    }
+
+    .day-list{
+        text-align: left;
+      
+    }
+/* INCLUDED */
+
+.includedmain{
+    text-align: left;
+    padding: 1rem 2rem;
+    
+}
+
+.includedtext{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+    /* REVIEW */
+    .desreviewcard{
+        background-color: #f9f9f9;
+        font-size: 0.8rem;
+        width: 20vw;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: left;
+    }
+    /* TAB */
+    .nav-link{
+        text-decoration: none;
+        color: #4F5231;
+        font-weight: 500;
+    }
+    .nav-link:hover{
+        text-decoration: none;
+        color:#F0582b;
+       
+    }
+     /* IMAGE DISPLAY
+     .col2{
+        display: none;
+    } */
+}
+
+/* SMALL SCREENS */
+@media screen and (max-width:850px){
+    .mainlay1{
+
+        display: flex;
+        flex-direction: column;
+    }
+
+    .leftlay1{
+        width: 100%;
+        padding: 1rem 2rem ;
+    }
+    .rightlay1{
+        width: 100%;
+        padding:-0  2rem ;
+    }
+
+    .deshead1{
+        font-size: 2.5rem;
+        line-height: 1;
+        text-align: left;
+        padding: 1rem 0;
+        color: #F0582b;
+    }
+
+    .desicons1{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        text-align: left;
+    }
+
+    .desoverview{
+        text-align: left;
+    }
+    .desoverviewhead{
+        font-size: 2rem;
+        padding: 1rem 0 0 0 ;
+        color: #F0582b;
+        
+    }
+    .desoverviewdesp{
+        font-size: 0.9rem;
+    }
+    /* DAYS COMPONENT */
+.daymain{
+    text-align: left;
+    padding: 0.4rem 0;
+   
+}
+
+.sitem{
+    padding: 0.2rem 2rem;
+}
+    .dayheadmain{
+        text-align: left;
+        font-size: 1.1rem;
+     
+        font-weight: 500;
+        display: flex;
+        flex-direction: row;
+
+    }
+.daytext{
+    padding: 0.2rem 0.1rem;
+}
+    .daycircle{
+        background-color: #F0582b;
+        padding: 0.2rem 0.4rem;
+        color: #f9f9f9;
+        border-radius: 50%;
+        margin: 0 0.4rem 0 0;
+    }
+
+   
+/* INCLUDED */
+
+.includedmain{
+    text-align: left;
+    padding: 1rem 2rem;
+    
+}
+
+.includedtext{
+    font-size: 1.1rem;
+    font-weight: 500;
+}
+    /* REVIEW */
+    .desreviewcard{
+        background-color: #f9f9f9;
+        font-size: 0.8rem;
+        width: 80vw;
+        padding: 1rem;
+        border-radius: 1rem;
+        text-align: left;
+    }
+    /* TAB */
+    .nav-link{
+        text-decoration: none;
+        color: #4F5231;
+        font-weight: 500;
+    }
+
+    .nav-link:hover{
+        text-decoration: none;
+        color:#F0582b;
+       
+    }
+
+    /* IMAGE DISPLAY */
+    .col2{
+        display: none;
+    }
+}

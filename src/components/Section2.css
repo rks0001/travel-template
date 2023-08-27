@@ -3,7 +3,7 @@
 @media screen and (min-width:851px){
     .sectiontwomain{
         min-height: 60vh;
-        background-color: #f5f4ed;
+        background-color: #F9F9FC;
         
         padding: 6rem 0 0 0;
         border-radius: 6rem 6rem 0 0;
@@ -30,7 +30,7 @@
         background-color: #39A77F;
         padding: 2vh 6vw;
         border: none;
-        color: #f5f4ed;
+        color: #F9F9FC;
         font-size: 1.1rem;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
@@ -46,7 +46,7 @@
 @media screen and (max-width:850px){
     .sectiontwomain{
         min-height: 80vh;
-        background-color: #f5f4ed;
+        background-color: #F9F9FC;
         padding: 0 0 2rem 0;
         border-radius: 2.6rem 2.6rem 0 0;
         margin-top: -4rem;
@@ -71,7 +71,7 @@
         background-color: #39A77F;
         padding: 0.5rem 2rem;
         border: none;
-        color: #f5f4ed;
+        color: #F9F9FC;
         margin: 0.6rem 2rem;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
         

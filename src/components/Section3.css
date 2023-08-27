@@ -3,7 +3,7 @@
 @media screen and (min-width:851px){
     .sectionthreemain{
         min-height: 80vh;
-        background-color: #f5f4ed;
+        background-color: #F9F9FC;
    
         padding: 1rem 0;
        
@@ -24,11 +24,11 @@
         line-height: 1;
     }
     .sec3btn{
-        background-color: #5B9DC2;
+        background-color: #2D728F;
         padding: 2vh 6vw;
      
         border: none;
-        color: #f5f4ed;
+        color: #F9F9FC;
         font-size: 1.1rem;
         margin: 1rem 0;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
@@ -55,7 +55,7 @@
 @media screen and (max-width:850px){
     .sectionthreemain{
         min-height: 80vh;
-        background-color: #f5f4ed;
+        background-color: #F9F9FC;
         display: flex;
         flex-direction: column;
         text-align: left;
@@ -75,10 +75,10 @@
         line-height: 1;
     }
     .sec3btn{
-        background-color: #5B9DC2;
+        background-color: #2D728F;
         padding: 0.4rem 1.4rem;
         border: none;
-        color: #f5f4ed;
+        color: #F9F9FC;
         margin: 0.4rem 2rem;
         box-shadow: rgba(99, 99, 99, 0.2) 0px 2px 8px 0px;
     }
